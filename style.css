@@ -1,3 +1,994 @@
 /* todo: move to the index html file */
 
-body,.theme-main-wrapper { background-color:#ffffff;background-repeat:repeat;background-position:right bottom;background-attachment:scroll; } .mk-header-toolbar{ background-color:#eeeeee;background-repeat:repeat;background-position:right bottom;background-attachment:scroll; } #mk-header, .mk-secondary-header { background-color:#ffffff;background-repeat:repeat;background-position:right bottom;background-attachment:scroll; } .theme-main-wrapper:not(.vertical-header) #mk-header.transparent-header.light-header-skin, .theme-main-wrapper:not(.vertical-header) #mk-header.transparent-header.dark-header-skin{ border-top:none !important; background:transparent !important; } .theme-main-wrapper:not(.vertical-header) .sticky-header.sticky-header-padding { padding-top:90px; } .sticky-header-padding { background-color:#ffffff; } #mk-header.transparent-header-sticky, #mk-header.sticky-header:not(.transparent-header) { border-bottom:1px solid#e6e6e6; } #mk-page-title { padding:40px 0; } #mk-page-title .mk-page-heading{ font-size:18px; color:#ffffff; ; ; } #mk-breadcrumbs { line-height:18px; } #mk-page-title .mk-page-title-bg { background-color:#fafafa;background-repeat:repeat;background-position:right bottom;; height:100%; width:100%; top:0; left:0; transform:translateZ(0); -webkit-transform:translateZ(0); } .page-master-holder { position:relative; } .background-img--page { background-color:#ffffff;background-repeat:repeat;background-position:right bottom; height:100%; width:100%; position:absolute; top:0; left:0; transform:translateZ(0); -webkit-transform:translateZ(0); z-index:-1; } #mk-footer{ background-color:#191919;background-repeat:repeat;background-position:right bottom;background-attachment:scroll; } @font-face { font-family:'ArtbeesWPTokens'; src:url('http://brycebladon.com/wp-content/themes/ken/stylesheet/artbees-icons/ArtbeesWPTokens.eot'); src:url('http://brycebladon.com/wp-content/themes/ken/stylesheet/artbees-icons/ArtbeesWPTokens.eot?#iefix') format('embedded-opentype'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/artbees-icons/ArtbeesWPTokens.woff') format('woff'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/artbees-icons/ArtbeesWPTokens.ttf') format('truetype'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/artbees-icons/ArtbeesWPTokens.svg#ArtbeesWPTokens') format('svg'); font-weight:400; font-style:normal; } @font-face { font-family:'FontAwesome'; src:url('http://brycebladon.com/wp-content/themes/ken/stylesheet/awesome-icons/fontawesome-webfont.eot?v=4.2'); src:url('http://brycebladon.com/wp-content/themes/ken/stylesheet/awesome-icons/fontawesome-webfont.eot?#iefix&v=4.2') format('embedded-opentype'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/awesome-icons/fontawesome-webfont.woff?v=4.2') format('woff'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/awesome-icons/fontawesome-webfont.ttf?v=4.2') format('truetype'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/awesome-icons/fontawesome-webfont.svg#FontAwesome') format('svg');; font-weight:normal; font-style:normal; } @font-face { font-family:'star'; src:url('http://brycebladon.com/wp-content/themes/ken/stylesheet/woocommerce-fonts/star.eot'); src:url('../woocommerce-fonts/star.eot?#iefix') format('embedded-opentype'), url('../woocommerce-fonts/star.woff') format('woff'), url('../woocommerce-fonts/star.ttf') format('truetype'), url('../woocommerce-fonts/star.svg#star') format('svg'); font-weight:normal; font-style:normal; } @font-face { font-family:'WooCommerce'; src:url('http://brycebladon.com/wp-content/themes/ken/stylesheet/woocommerce-fonts/WooCommerce.eot'); src:url('http://brycebladon.com/wp-content/themes/ken/stylesheet/woocommerce-fonts/WooCommerce.eot?#iefix') format('embedded-opentype'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/woocommerce-fonts/WooCommerce.woff') format('woff'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/woocommerce-fonts/WooCommerce.ttf') format('truetype'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/woocommerce-fonts/WooCommerce.svg#WooCommerce') format('svg'); font-weight:normal; font-style:normal; } @font-face { font-family:'Flaticon'; src:url('http://brycebladon.com/wp-content/themes/ken/stylesheet/line-icon-set/flaticon.eot'); src:url('http://brycebladon.com/wp-content/themes/ken/stylesheet/line-icon-set/flaticon.eot#iefix') format('embedded-opentype'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/line-icon-set/flaticon.woff') format('woff'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/line-icon-set/flaticon.ttf') format('truetype'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/line-icon-set/flaticon.svg') format('svg'); font-weight:normal; font-style:normal; } @font-face { font-family:'Pe-icon-line'; src:url('http://brycebladon.com/wp-content/themes/ken/stylesheet/pe-line-icons/Pe-icon-line.eot?lqevop'); src:url('http://brycebladon.com/wp-content/themes/ken/stylesheet/pe-line-icons/Pe-icon-line.eot?#iefixlqevop') format('embedded-opentype'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/pe-line-icons/Pe-icon-line.woff?lqevop') format('woff'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/pe-line-icons/Pe-icon-line.ttf?lqevop') format('truetype'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/pe-line-icons/Pe-icon-line.svg?lqevop#Pe-icon-line') format('svg'); font-weight:normal; font-style:normal; } #fancy-title-2 a{ color:#ff4351; } #fancy-title-2 span.rounded{ border-radius:3px; } #fancy-title-2 span.full_rounded{ border-radius:50px; } #divider-4 .divider-inner{ margin:0 auto; } #divider-4 .divider-inner{ border-width:2px; height:2px; } #divider-4 .divider-inner{ letter-spacing:1px; margin:0 auto; } .btn-5 { color:#ff4351 !important; margin-bottom:10px; } .btn-5:before { background-color:#ff4351 !important; } .btn-5 .line { background-color:#ff4351 !important; }.btn-6 { color:#ff4351 !important; margin-bottom:10px; } .btn-6:before { background-color:#ff4351 !important; } .btn-6 .line { background-color:#ff4351 !important; }.btn-7 { color:#ff4351 !important; margin-bottom:10px; } .btn-7:before { background-color:#ff4351 !important; } .btn-7 .line { background-color:#ff4351 !important; } #icon-font-8 i { background-color:; color:#ff4351; border-color:; } #icon-font-8 i:hover { background-color:; color:; border-color:; } #mk-shape-divider-9 .shape__container { background-color:transparent; } #mk-shape-divider-9 .shape__container .shape { overflow:hidden; height:70px; } #mk-shape-divider-9 .shape__container .shape svg { position:relative; top:0.6px; } .page-section-1 .page-section-content.expandable-false, .page-section-1.expandable-true { padding-bottom:140px !important; } .page-section-1 { background-position:left bottom; background-repeat:no-repeat; } .page-section-1 { background-attachment:scroll; background-position:left bottom; background-repeat:no-repeat; min-height:100px; } .page-section-1 .bg-layer .scroll-layer{ background-attachment:scroll; background-position:left bottom; background-repeat:no-repeat; } .page-section-1 .page-section-content.expandable-false, .page-section-1.expandable-true { padding:30px 0; } .page-section-1 .alt-title span { } .page-section-1.section-expandable-true:not(.active-toggle):hover .mk-section-color-mask { opacity:0.2 !important; } .page-section-1 .expandable-section-trigger i { opacity:1; top:0 !important; } #fancy-title-11 a{ color:#ffffff; } #fancy-title-12 a{ color:#ffffff; } #fancy-title-13 a{ color:#ffffff; } #icon-font-14 i { background-color:; color:#ffffff; border-color:; } #icon-font-14 i:hover { background-color:; color:; border-color:; } #icon-font-15 i { background-color:; color:#ffffff; border-color:; } #icon-font-15 i:hover { background-color:; color:; border-color:; } #icon-font-16 i { background-color:; color:#ffffff; border-color:; } #icon-font-16 i:hover { background-color:; color:; border-color:; } #icon-font-17 i { background-color:; color:#ffffff; border-color:; } #icon-font-17 i:hover { background-color:; color:; border-color:; } #icon-font-18 i { background-color:; color:#ffffff; border-color:; } #icon-font-18 i:hover { background-color:; color:; border-color:; } #mk-shape-divider-19 .shape__container { background-color:transparent; } #mk-shape-divider-19 .shape__container .shape { overflow:hidden; height:70px; } #mk-shape-divider-19 .shape__container .shape svg { position:relative; top:0.6px; } .page-section-10 .page-section-content.expandable-false, .page-section-10.expandable-true { padding-bottom:130px !important; } .page-section-10 { background-color:#ff4351; background-position:left top; background-repeat:repeat; } .page-section-10 { background-attachment:scroll; background-color:#ff4351; background-position:left top; background-repeat:repeat; min-height:100px; } .page-section-10 .bg-layer .scroll-layer{ background-attachment:scroll; background-position:left top; background-repeat:repeat; } .page-section-10 .page-section-content.expandable-false, .page-section-10.expandable-true { padding:20px 0; } .page-section-10 .alt-title span { background-color:#ff4351; } .page-section-10.section-expandable-true:not(.active-toggle):hover .mk-section-color-mask { opacity:0.2 !important; } .page-section-10 .expandable-section-trigger i { opacity:1; top:0 !important; } #fancy-title-21 a{ color:#ff4351; } #fancy-title-22 a{ color:#ff4351; } #fancy-title-23 a{ color:#ff4351; } #fancy-title-24 a{ color:#ff4351; } #fancy-title-25 a{ color:#ff4351; } #icon-font-26 i { background-color:; color:#ff4351; border-color:; } #icon-font-26 i:hover { background-color:; color:; border-color:; } #mk-shape-divider-27 .shape__container { background-color:transparent; } #mk-shape-divider-27 .shape__container .shape { overflow:hidden; height:70px; } #mk-shape-divider-27 .shape__container .shape svg { position:relative; top:0.6px; } .page-section-20 .page-section-content.expandable-false, .page-section-20.expandable-true { padding-bottom:130px !important; } .page-section-20 { background-position:left top; background-repeat:repeat; } .page-section-20 { background-attachment:scroll; background-position:left top; background-repeat:repeat; min-height:100px; } .page-section-20 .bg-layer .scroll-layer{ background-attachment:scroll; background-position:left top; background-repeat:repeat; } .page-section-20 .page-section-content.expandable-false, .page-section-20.expandable-true { padding:20px 0; } .page-section-20 .alt-title span { } .page-section-20.section-expandable-true:not(.active-toggle):hover .mk-section-color-mask { opacity:0.2 !important; } .page-section-20 .expandable-section-trigger i { opacity:1; top:0 !important; } #fancy-title-29 a{ color:#ffffff; } #fancy-title-30 a{ color:#ffffff; } #fancy-title-31 a{ color:#ffffff; } #fancy-title-32 a{ color:#ffffff; } #mk-box-text-33 .icon-txt-default{ font-size:18px; } #mk-box-text-33.custom-skin i{ color:#ffffff !important; } #mk-box-text-33.custom-skin .icon-txt-default{ color:#ffffff !important; } #mk-box-text-33.custom-skin .icon-txt-hover{ color:#ffffff !important; } #mk-box-text-34 .icon-txt-default{ font-size:18px; } #mk-box-text-34.custom-skin i{ color:#ffffff !important; } #mk-box-text-34.custom-skin .icon-txt-default{ color:#ffffff !important; } #mk-box-text-34.custom-skin .icon-txt-hover{ color:#ffffff !important; } #mk-box-text-35 .icon-txt-default{ font-size:18px; } #mk-box-text-35.custom-skin i{ color:#ffffff !important; } #mk-box-text-35.custom-skin .icon-txt-default{ color:#ffffff !important; } #mk-box-text-35.custom-skin .icon-txt-hover{ color:#ffffff !important; } #mk-box-text-36 .icon-txt-default{ font-size:18px; } #mk-box-text-36.custom-skin i{ color:#ffffff !important; } #mk-box-text-36.custom-skin .icon-txt-default{ color:#ffffff !important; } #mk-box-text-36.custom-skin .icon-txt-hover{ color:#ffffff !important; } #icon-font-37 i { background-color:; color:#ffffff; border-color:; } #icon-font-37 i:hover { background-color:; color:; border-color:; } #mk-shape-divider-38 .shape__container { background-color:transparent; } #mk-shape-divider-38 .shape__container .shape { overflow:hidden; height:70px; } #mk-shape-divider-38 .shape__container .shape svg { position:relative; top:0.6px; } .page-section-28 .page-section-content.expandable-false, .page-section-28.expandable-true { padding-bottom:130px !important; } .page-section-28 { background-color:#ff4351; background-position:left top; background-repeat:repeat; } .page-section-28 { background-attachment:scroll; background-color:#ff4351; background-position:left top; background-repeat:repeat; min-height:100px; } .page-section-28 .bg-layer .scroll-layer{ background-attachment:scroll; background-position:left top; background-repeat:repeat; } .page-section-28 .page-section-content.expandable-false, .page-section-28.expandable-true { padding:20px 0; } .page-section-28 .alt-title span { background-color:#ff4351; } .page-section-28.section-expandable-true:not(.active-toggle):hover .mk-section-color-mask { opacity:0.2 !important; } .page-section-28 .expandable-section-trigger i { opacity:1; top:0 !important; } #fancy-title-40 a{ color:#ff4351; } #fancy-title-41 a{ color:#ff4351; } #divider-43 .divider-inner{ margin:0 auto; } #divider-43 .divider-inner{ border-width:2px; height:2px; } #divider-43 .divider-inner{ letter-spacing:1px; margin:0 auto; } #divider-45 .divider-inner{ width:35px; margin:0 auto; } #divider-45 .divider-inner{ border-width:2px; height:2px; } #divider-45 .divider-inner{ letter-spacing:1px; margin:0 auto; } #divider-46 .divider-inner{ width:35px; margin:0 auto; } #divider-46 .divider-inner{ border-width:2px; height:2px; } #divider-46 .divider-inner{ letter-spacing:1px; margin:0 auto; } #divider-47 .divider-inner{ width:35px; margin:0 auto; } #divider-47 .divider-inner{ border-width:2px; height:2px; } #divider-47 .divider-inner{ letter-spacing:1px; margin:0 auto; } #divider-48 .divider-inner{ width:35px; margin:0 auto; } #divider-48 .divider-inner{ border-width:2px; height:2px; } #divider-48 .divider-inner{ letter-spacing:1px; margin:0 auto; } #divider-49 .divider-inner{ width:35px; margin:0 auto; } #divider-49 .divider-inner{ border-width:2px; height:2px; } #divider-49 .divider-inner{ letter-spacing:1px; margin:0 auto; } #divider-50 .divider-inner{ width:35px; margin:0 auto; } #divider-50 .divider-inner{ border-width:2px; height:2px; } #divider-50 .divider-inner{ letter-spacing:1px; margin:0 auto; } #divider-51 .divider-inner{ width:35px; margin:0 auto; } #divider-51 .divider-inner{ border-width:2px; height:2px; } #divider-51 .divider-inner{ letter-spacing:1px; margin:0 auto; } #divider-52 .divider-inner{ width:35px; margin:0 auto; } #divider-52 .divider-inner{ border-width:2px; height:2px; } #divider-52 .divider-inner{ letter-spacing:1px; margin:0 auto; } #divider-53 .divider-inner{ width:35px; margin:0 auto; } #divider-53 .divider-inner{ border-width:2px; height:2px; } #divider-53 .divider-inner{ letter-spacing:1px; margin:0 auto; } #divider-54 .divider-inner{ width:35px; margin:0 auto; } #divider-54 .divider-inner{ border-width:2px; height:2px; } #divider-54 .divider-inner{ letter-spacing:1px; margin:0 auto; } #divider-55 .divider-inner{ width:35px; margin:0 auto; } #divider-55 .divider-inner{ border-width:2px; height:2px; } #divider-55 .divider-inner{ letter-spacing:1px; margin:0 auto; } #divider-56 .divider-inner{ width:35px; margin:0 auto; } #divider-56 .divider-inner{ border-width:2px; height:2px; } #divider-56 .divider-inner{ letter-spacing:1px; margin:0 auto; } #divider-57 .divider-inner{ width:35px; margin:0 auto; } #divider-57 .divider-inner{ border-width:2px; height:2px; } #divider-57 .divider-inner{ letter-spacing:1px; margin:0 auto; } #divider-58 .divider-inner{ width:35px; margin:0 auto; } #divider-58 .divider-inner{ border-width:2px; height:2px; } #divider-58 .divider-inner{ letter-spacing:1px; margin:0 auto; } #divider-59 .divider-inner{ width:35px; margin:0 auto; } #divider-59 .divider-inner{ border-width:2px; height:2px; } #divider-59 .divider-inner{ letter-spacing:1px; margin:0 auto; } #divider-60 .divider-inner{ width:35px; margin:0 auto; } #divider-60 .divider-inner{ border-width:2px; height:2px; } #divider-60 .divider-inner{ letter-spacing:1px; margin:0 auto; } #clients-shortcode-44 ul li:last-child .flip-wrapper { border-right-width:2px !important; } #clients-shortcode-44 .client-item-wrapper{ border-width:2px; } #clients-shortcode-44 ul li:last-child .flip-wrapper { border-right-width:2px !important; } #icon-font-61 i { background-color:; color:#ff4351; border-color:; } #icon-font-61 i:hover { background-color:; color:; border-color:; } .page-section-39 { background-position:left top; background-repeat:repeat; } .page-section-39 { background-attachment:scroll; background-position:left top; background-repeat:repeat; min-height:100px; } .page-section-39 .bg-layer .scroll-layer{ background-attachment:scroll; background-position:left top; background-repeat:repeat; } .page-section-39 .page-section-content.expandable-false, .page-section-39.expandable-true { padding:20px 0; } .page-section-39 .alt-title span { } .page-section-39.section-expandable-true:not(.active-toggle):hover .mk-section-color-mask { opacity:0.8 !important; } .page-section-39 .expandable-section-trigger i { opacity:1; top:0 !important; } #fancy-title-63 a{ color:#ffffff; } #fancy-title-64 a{ color:#ffffff; } .page-section-62 { background-color:#ff4351; background-position:center center; background-repeat:repeat; } .page-section-62 { background-attachment:scroll; background-color:#ff4351; background-position:center center; background-repeat:repeat; min-height:100px; } .page-section-62 .bg-layer .scroll-layer{ background-attachment:scroll; background-position:center center; background-repeat:repeat; } .page-section-62 .page-section-content.expandable-false, .page-section-62.expandable-true { padding:50px 0; } .page-section-62 .alt-title span { background-color:#ff4351; } .page-section-62.section-expandable-true:not(.active-toggle):hover .mk-section-color-mask { opacity:0.6 !important; } .page-section-62 .expandable-section-trigger i { opacity:1; top:0 !important; }
+body, .theme-main-wrapper {
+  background-color: #ffffff;
+  background-repeat: repeat;
+  background-position: right bottom;
+  background-attachment: scroll;
+}
+
+.mk-header-toolbar {
+  background-color: #eeeeee;
+  background-repeat: repeat;
+  background-position: right bottom;
+  background-attachment: scroll;
+}
+
+#mk-header, .mk-secondary-header {
+  background-color: #ffffff;
+  background-repeat: repeat;
+  background-position: right bottom;
+  background-attachment: scroll;
+}
+
+.theme-main-wrapper:not(.vertical-header) #mk-header.transparent-header.light-header-skin, .theme-main-wrapper:not(.vertical-header) #mk-header.transparent-header.dark-header-skin {
+  border-top: none !important;
+  background: transparent !important;
+}
+
+.theme-main-wrapper:not(.vertical-header) .sticky-header.sticky-header-padding {
+  padding-top: 90px;
+}
+
+.sticky-header-padding {
+  background-color: #ffffff;
+}
+
+#mk-header.transparent-header-sticky, #mk-header.sticky-header:not(.transparent-header) {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+#mk-page-title {
+  padding: 40px 0;
+}
+
+#mk-page-title .mk-page-heading {
+  font-size: 18px;
+  color: #ffffff;;;
+}
+
+#mk-breadcrumbs {
+  line-height: 18px;
+}
+
+#mk-page-title .mk-page-title-bg {
+  background-color: #fafafa;
+  background-repeat: repeat;
+  background-position: right bottom;;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+}
+
+.page-master-holder {
+  position: relative;
+}
+
+.background-img--page {
+  background-color: #ffffff;
+  background-repeat: repeat;
+  background-position: right bottom;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  z-index: -1;
+}
+
+#mk-footer {
+  background-color: #191919;
+  background-repeat: repeat;
+  background-position: right bottom;
+  background-attachment: scroll;
+}
+
+@font-face {
+  font-family: 'ArtbeesWPTokens';
+  src: url('http://brycebladon.com/wp-content/themes/ken/stylesheet/artbees-icons/ArtbeesWPTokens.eot');
+  src: url('http://brycebladon.com/wp-content/themes/ken/stylesheet/artbees-icons/ArtbeesWPTokens.eot?#iefix') format('embedded-opentype'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/artbees-icons/ArtbeesWPTokens.woff') format('woff'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/artbees-icons/ArtbeesWPTokens.ttf') format('truetype'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/artbees-icons/ArtbeesWPTokens.svg#ArtbeesWPTokens') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('http://brycebladon.com/wp-content/themes/ken/stylesheet/awesome-icons/fontawesome-webfont.eot?v=4.2');
+  src: url('http://brycebladon.com/wp-content/themes/ken/stylesheet/awesome-icons/fontawesome-webfont.eot?#iefix&v=4.2') format('embedded-opentype'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/awesome-icons/fontawesome-webfont.woff?v=4.2') format('woff'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/awesome-icons/fontawesome-webfont.ttf?v=4.2') format('truetype'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/awesome-icons/fontawesome-webfont.svg#FontAwesome') format('svg');;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'star';
+  src: url('http://brycebladon.com/wp-content/themes/ken/stylesheet/woocommerce-fonts/star.eot');
+  src: url('../woocommerce-fonts/star.eot?#iefix') format('embedded-opentype'), url('../woocommerce-fonts/star.woff') format('woff'), url('../woocommerce-fonts/star.ttf') format('truetype'), url('../woocommerce-fonts/star.svg#star') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'WooCommerce';
+  src: url('http://brycebladon.com/wp-content/themes/ken/stylesheet/woocommerce-fonts/WooCommerce.eot');
+  src: url('http://brycebladon.com/wp-content/themes/ken/stylesheet/woocommerce-fonts/WooCommerce.eot?#iefix') format('embedded-opentype'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/woocommerce-fonts/WooCommerce.woff') format('woff'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/woocommerce-fonts/WooCommerce.ttf') format('truetype'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/woocommerce-fonts/WooCommerce.svg#WooCommerce') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Flaticon';
+  src: url('http://brycebladon.com/wp-content/themes/ken/stylesheet/line-icon-set/flaticon.eot');
+  src: url('http://brycebladon.com/wp-content/themes/ken/stylesheet/line-icon-set/flaticon.eot#iefix') format('embedded-opentype'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/line-icon-set/flaticon.woff') format('woff'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/line-icon-set/flaticon.ttf') format('truetype'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/line-icon-set/flaticon.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pe-icon-line';
+  src: url('http://brycebladon.com/wp-content/themes/ken/stylesheet/pe-line-icons/Pe-icon-line.eot?lqevop');
+  src: url('http://brycebladon.com/wp-content/themes/ken/stylesheet/pe-line-icons/Pe-icon-line.eot?#iefixlqevop') format('embedded-opentype'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/pe-line-icons/Pe-icon-line.woff?lqevop') format('woff'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/pe-line-icons/Pe-icon-line.ttf?lqevop') format('truetype'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/pe-line-icons/Pe-icon-line.svg?lqevop#Pe-icon-line') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#fancy-title-2 a {
+  color: #ff4351;
+}
+
+#fancy-title-2 span.rounded {
+  border-radius: 3px;
+}
+
+#fancy-title-2 span.full_rounded {
+  border-radius: 50px;
+}
+
+#divider-4 .divider-inner {
+  margin: 0 auto;
+}
+
+#divider-4 .divider-inner {
+  border-width: 2px;
+  height: 2px;
+}
+
+#divider-4 .divider-inner {
+  letter-spacing: 1px;
+  margin: 0 auto;
+}
+
+.btn-5 {
+  color: #ff4351 !important;
+  margin-bottom: 10px;
+}
+
+.btn-5:before {
+  background-color: #ff4351 !important;
+}
+
+.btn-5 .line {
+  background-color: #ff4351 !important;
+}
+
+.btn-6 {
+  color: #ff4351 !important;
+  margin-bottom: 10px;
+}
+
+.btn-6:before {
+  background-color: #ff4351 !important;
+}
+
+.btn-6 .line {
+  background-color: #ff4351 !important;
+}
+
+.btn-7 {
+  color: #ff4351 !important;
+  margin-bottom: 10px;
+}
+
+.btn-7:before {
+  background-color: #ff4351 !important;
+}
+
+.btn-7 .line {
+  background-color: #ff4351 !important;
+}
+
+#icon-font-8 i {
+  background-color:;
+  color: #ff4351;
+  border-color:;
+}
+
+#icon-font-8 i:hover {
+  background-color:;
+  color:;
+  border-color:;
+}
+
+#mk-shape-divider-9 .shape__container {
+  background-color: transparent;
+}
+
+#mk-shape-divider-9 .shape__container .shape {
+  overflow: hidden;
+  height: 70px;
+}
+
+#mk-shape-divider-9 .shape__container .shape svg {
+  position: relative;
+  top: 0.6px;
+}
+
+.page-section-1 .page-section-content.expandable-false, .page-section-1.expandable-true {
+  padding-bottom: 140px !important;
+}
+
+.page-section-1 {
+  background-position: left bottom;
+  background-repeat: no-repeat;
+}
+
+.page-section-1 {
+  background-attachment: scroll;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  min-height: 100px;
+}
+
+.page-section-1 .bg-layer .scroll-layer {
+  background-attachment: scroll;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+}
+
+.page-section-1 .page-section-content.expandable-false, .page-section-1.expandable-true {
+  padding: 30px 0;
+}
+
+.page-section-1 .alt-title span {
+}
+
+.page-section-1.section-expandable-true:not(.active-toggle):hover .mk-section-color-mask {
+  opacity: 0.2 !important;
+}
+
+.page-section-1 .expandable-section-trigger i {
+  opacity: 1;
+  top: 0 !important;
+}
+
+#fancy-title-11 a {
+  color: #ffffff;
+}
+
+#fancy-title-12 a {
+  color: #ffffff;
+}
+
+#fancy-title-13 a {
+  color: #ffffff;
+}
+
+#icon-font-14 i {
+  background-color:;
+  color: #ffffff;
+  border-color:;
+}
+
+#icon-font-14 i:hover {
+  background-color:;
+  color:;
+  border-color:;
+}
+
+#icon-font-15 i {
+  background-color:;
+  color: #ffffff;
+  border-color:;
+}
+
+#icon-font-15 i:hover {
+  background-color:;
+  color:;
+  border-color:;
+}
+
+#icon-font-16 i {
+  background-color:;
+  color: #ffffff;
+  border-color:;
+}
+
+#icon-font-16 i:hover {
+  background-color:;
+  color:;
+  border-color:;
+}
+
+#icon-font-17 i {
+  background-color:;
+  color: #ffffff;
+  border-color:;
+}
+
+#icon-font-17 i:hover {
+  background-color:;
+  color:;
+  border-color:;
+}
+
+#icon-font-18 i {
+  background-color:;
+  color: #ffffff;
+  border-color:;
+}
+
+#icon-font-18 i:hover {
+  background-color:;
+  color:;
+  border-color:;
+}
+
+#mk-shape-divider-19 .shape__container {
+  background-color: transparent;
+}
+
+#mk-shape-divider-19 .shape__container .shape {
+  overflow: hidden;
+  height: 70px;
+}
+
+#mk-shape-divider-19 .shape__container .shape svg {
+  position: relative;
+  top: 0.6px;
+}
+
+.page-section-10 .page-section-content.expandable-false, .page-section-10.expandable-true {
+  padding-bottom: 130px !important;
+}
+
+.page-section-10 {
+  background-color: #ff4351;
+  background-position: left top;
+  background-repeat: repeat;
+}
+
+.page-section-10 {
+  background-attachment: scroll;
+  background-color: #ff4351;
+  background-position: left top;
+  background-repeat: repeat;
+  min-height: 100px;
+}
+
+.page-section-10 .bg-layer .scroll-layer {
+  background-attachment: scroll;
+  background-position: left top;
+  background-repeat: repeat;
+}
+
+.page-section-10 .page-section-content.expandable-false, .page-section-10.expandable-true {
+  padding: 20px 0;
+}
+
+.page-section-10 .alt-title span {
+  background-color: #ff4351;
+}
+
+.page-section-10.section-expandable-true:not(.active-toggle):hover .mk-section-color-mask {
+  opacity: 0.2 !important;
+}
+
+.page-section-10 .expandable-section-trigger i {
+  opacity: 1;
+  top: 0 !important;
+}
+
+#fancy-title-21 a {
+  color: #ff4351;
+}
+
+#fancy-title-22 a {
+  color: #ff4351;
+}
+
+#fancy-title-23 a {
+  color: #ff4351;
+}
+
+#fancy-title-24 a {
+  color: #ff4351;
+}
+
+#fancy-title-25 a {
+  color: #ff4351;
+}
+
+#icon-font-26 i {
+  background-color:;
+  color: #ff4351;
+  border-color:;
+}
+
+#icon-font-26 i:hover {
+  background-color:;
+  color:;
+  border-color:;
+}
+
+#mk-shape-divider-27 .shape__container {
+  background-color: transparent;
+}
+
+#mk-shape-divider-27 .shape__container .shape {
+  overflow: hidden;
+  height: 70px;
+}
+
+#mk-shape-divider-27 .shape__container .shape svg {
+  position: relative;
+  top: 0.6px;
+}
+
+.page-section-20 .page-section-content.expandable-false, .page-section-20.expandable-true {
+  padding-bottom: 130px !important;
+}
+
+.page-section-20 {
+  background-position: left top;
+  background-repeat: repeat;
+}
+
+.page-section-20 {
+  background-attachment: scroll;
+  background-position: left top;
+  background-repeat: repeat;
+  min-height: 100px;
+}
+
+.page-section-20 .bg-layer .scroll-layer {
+  background-attachment: scroll;
+  background-position: left top;
+  background-repeat: repeat;
+}
+
+.page-section-20 .page-section-content.expandable-false, .page-section-20.expandable-true {
+  padding: 20px 0;
+}
+
+.page-section-20 .alt-title span {
+}
+
+.page-section-20.section-expandable-true:not(.active-toggle):hover .mk-section-color-mask {
+  opacity: 0.2 !important;
+}
+
+.page-section-20 .expandable-section-trigger i {
+  opacity: 1;
+  top: 0 !important;
+}
+
+#fancy-title-29 a {
+  color: #ffffff;
+}
+
+#fancy-title-30 a {
+  color: #ffffff;
+}
+
+#fancy-title-31 a {
+  color: #ffffff;
+}
+
+#fancy-title-32 a {
+  color: #ffffff;
+}
+
+#mk-box-text-33 .icon-txt-default {
+  font-size: 18px;
+}
+
+#mk-box-text-33.custom-skin i {
+  color: #ffffff !important;
+}
+
+#mk-box-text-33.custom-skin .icon-txt-default {
+  color: #ffffff !important;
+}
+
+#mk-box-text-33.custom-skin .icon-txt-hover {
+  color: #ffffff !important;
+}
+
+#mk-box-text-34 .icon-txt-default {
+  font-size: 18px;
+}
+
+#mk-box-text-34.custom-skin i {
+  color: #ffffff !important;
+}
+
+#mk-box-text-34.custom-skin .icon-txt-default {
+  color: #ffffff !important;
+}
+
+#mk-box-text-34.custom-skin .icon-txt-hover {
+  color: #ffffff !important;
+}
+
+#mk-box-text-35 .icon-txt-default {
+  font-size: 18px;
+}
+
+#mk-box-text-35.custom-skin i {
+  color: #ffffff !important;
+}
+
+#mk-box-text-35.custom-skin .icon-txt-default {
+  color: #ffffff !important;
+}
+
+#mk-box-text-35.custom-skin .icon-txt-hover {
+  color: #ffffff !important;
+}
+
+#mk-box-text-36 .icon-txt-default {
+  font-size: 18px;
+}
+
+#mk-box-text-36.custom-skin i {
+  color: #ffffff !important;
+}
+
+#mk-box-text-36.custom-skin .icon-txt-default {
+  color: #ffffff !important;
+}
+
+#mk-box-text-36.custom-skin .icon-txt-hover {
+  color: #ffffff !important;
+}
+
+#icon-font-37 i {
+  background-color:;
+  color: #ffffff;
+  border-color:;
+}
+
+#icon-font-37 i:hover {
+  background-color:;
+  color:;
+  border-color:;
+}
+
+#mk-shape-divider-38 .shape__container {
+  background-color: transparent;
+}
+
+#mk-shape-divider-38 .shape__container .shape {
+  overflow: hidden;
+  height: 70px;
+}
+
+#mk-shape-divider-38 .shape__container .shape svg {
+  position: relative;
+  top: 0.6px;
+}
+
+.page-section-28 .page-section-content.expandable-false, .page-section-28.expandable-true {
+  padding-bottom: 130px !important;
+}
+
+.page-section-28 {
+  background-color: #ff4351;
+  background-position: left top;
+  background-repeat: repeat;
+}
+
+.page-section-28 {
+  background-attachment: scroll;
+  background-color: #ff4351;
+  background-position: left top;
+  background-repeat: repeat;
+  min-height: 100px;
+}
+
+.page-section-28 .bg-layer .scroll-layer {
+  background-attachment: scroll;
+  background-position: left top;
+  background-repeat: repeat;
+}
+
+.page-section-28 .page-section-content.expandable-false, .page-section-28.expandable-true {
+  padding: 20px 0;
+}
+
+.page-section-28 .alt-title span {
+  background-color: #ff4351;
+}
+
+.page-section-28.section-expandable-true:not(.active-toggle):hover .mk-section-color-mask {
+  opacity: 0.2 !important;
+}
+
+.page-section-28 .expandable-section-trigger i {
+  opacity: 1;
+  top: 0 !important;
+}
+
+#fancy-title-40 a {
+  color: #ff4351;
+}
+
+#fancy-title-41 a {
+  color: #ff4351;
+}
+
+#divider-43 .divider-inner {
+  margin: 0 auto;
+}
+
+#divider-43 .divider-inner {
+  border-width: 2px;
+  height: 2px;
+}
+
+#divider-43 .divider-inner {
+  letter-spacing: 1px;
+  margin: 0 auto;
+}
+
+#divider-45 .divider-inner {
+  width: 35px;
+  margin: 0 auto;
+}
+
+#divider-45 .divider-inner {
+  border-width: 2px;
+  height: 2px;
+}
+
+#divider-45 .divider-inner {
+  letter-spacing: 1px;
+  margin: 0 auto;
+}
+
+#divider-46 .divider-inner {
+  width: 35px;
+  margin: 0 auto;
+}
+
+#divider-46 .divider-inner {
+  border-width: 2px;
+  height: 2px;
+}
+
+#divider-46 .divider-inner {
+  letter-spacing: 1px;
+  margin: 0 auto;
+}
+
+#divider-47 .divider-inner {
+  width: 35px;
+  margin: 0 auto;
+}
+
+#divider-47 .divider-inner {
+  border-width: 2px;
+  height: 2px;
+}
+
+#divider-47 .divider-inner {
+  letter-spacing: 1px;
+  margin: 0 auto;
+}
+
+#divider-48 .divider-inner {
+  width: 35px;
+  margin: 0 auto;
+}
+
+#divider-48 .divider-inner {
+  border-width: 2px;
+  height: 2px;
+}
+
+#divider-48 .divider-inner {
+  letter-spacing: 1px;
+  margin: 0 auto;
+}
+
+#divider-49 .divider-inner {
+  width: 35px;
+  margin: 0 auto;
+}
+
+#divider-49 .divider-inner {
+  border-width: 2px;
+  height: 2px;
+}
+
+#divider-49 .divider-inner {
+  letter-spacing: 1px;
+  margin: 0 auto;
+}
+
+#divider-50 .divider-inner {
+  width: 35px;
+  margin: 0 auto;
+}
+
+#divider-50 .divider-inner {
+  border-width: 2px;
+  height: 2px;
+}
+
+#divider-50 .divider-inner {
+  letter-spacing: 1px;
+  margin: 0 auto;
+}
+
+#divider-51 .divider-inner {
+  width: 35px;
+  margin: 0 auto;
+}
+
+#divider-51 .divider-inner {
+  border-width: 2px;
+  height: 2px;
+}
+
+#divider-51 .divider-inner {
+  letter-spacing: 1px;
+  margin: 0 auto;
+}
+
+#divider-52 .divider-inner {
+  width: 35px;
+  margin: 0 auto;
+}
+
+#divider-52 .divider-inner {
+  border-width: 2px;
+  height: 2px;
+}
+
+#divider-52 .divider-inner {
+  letter-spacing: 1px;
+  margin: 0 auto;
+}
+
+#divider-53 .divider-inner {
+  width: 35px;
+  margin: 0 auto;
+}
+
+#divider-53 .divider-inner {
+  border-width: 2px;
+  height: 2px;
+}
+
+#divider-53 .divider-inner {
+  letter-spacing: 1px;
+  margin: 0 auto;
+}
+
+#divider-54 .divider-inner {
+  width: 35px;
+  margin: 0 auto;
+}
+
+#divider-54 .divider-inner {
+  border-width: 2px;
+  height: 2px;
+}
+
+#divider-54 .divider-inner {
+  letter-spacing: 1px;
+  margin: 0 auto;
+}
+
+#divider-55 .divider-inner {
+  width: 35px;
+  margin: 0 auto;
+}
+
+#divider-55 .divider-inner {
+  border-width: 2px;
+  height: 2px;
+}
+
+#divider-55 .divider-inner {
+  letter-spacing: 1px;
+  margin: 0 auto;
+}
+
+#divider-56 .divider-inner {
+  width: 35px;
+  margin: 0 auto;
+}
+
+#divider-56 .divider-inner {
+  border-width: 2px;
+  height: 2px;
+}
+
+#divider-56 .divider-inner {
+  letter-spacing: 1px;
+  margin: 0 auto;
+}
+
+#divider-57 .divider-inner {
+  width: 35px;
+  margin: 0 auto;
+}
+
+#divider-57 .divider-inner {
+  border-width: 2px;
+  height: 2px;
+}
+
+#divider-57 .divider-inner {
+  letter-spacing: 1px;
+  margin: 0 auto;
+}
+
+#divider-58 .divider-inner {
+  width: 35px;
+  margin: 0 auto;
+}
+
+#divider-58 .divider-inner {
+  border-width: 2px;
+  height: 2px;
+}
+
+#divider-58 .divider-inner {
+  letter-spacing: 1px;
+  margin: 0 auto;
+}
+
+#divider-59 .divider-inner {
+  width: 35px;
+  margin: 0 auto;
+}
+
+#divider-59 .divider-inner {
+  border-width: 2px;
+  height: 2px;
+}
+
+#divider-59 .divider-inner {
+  letter-spacing: 1px;
+  margin: 0 auto;
+}
+
+#divider-60 .divider-inner {
+  width: 35px;
+  margin: 0 auto;
+}
+
+#divider-60 .divider-inner {
+  border-width: 2px;
+  height: 2px;
+}
+
+#divider-60 .divider-inner {
+  letter-spacing: 1px;
+  margin: 0 auto;
+}
+
+#clients-shortcode-44 ul li:last-child .flip-wrapper {
+  border-right-width: 2px !important;
+}
+
+#clients-shortcode-44 .client-item-wrapper {
+  border-width: 2px;
+}
+
+#clients-shortcode-44 ul li:last-child .flip-wrapper {
+  border-right-width: 2px !important;
+}
+
+#icon-font-61 i {
+  background-color:;
+  color: #ff4351;
+  border-color:;
+}
+
+#icon-font-61 i:hover {
+  background-color:;
+  color:;
+  border-color:;
+}
+
+.page-section-39 {
+  background-position: left top;
+  background-repeat: repeat;
+}
+
+.page-section-39 {
+  background-attachment: scroll;
+  background-position: left top;
+  background-repeat: repeat;
+  min-height: 100px;
+}
+
+.page-section-39 .bg-layer .scroll-layer {
+  background-attachment: scroll;
+  background-position: left top;
+  background-repeat: repeat;
+}
+
+.page-section-39 .page-section-content.expandable-false, .page-section-39.expandable-true {
+  padding: 20px 0;
+}
+
+.page-section-39 .alt-title span {
+}
+
+.page-section-39.section-expandable-true:not(.active-toggle):hover .mk-section-color-mask {
+  opacity: 0.8 !important;
+}
+
+.page-section-39 .expandable-section-trigger i {
+  opacity: 1;
+  top: 0 !important;
+}
+
+#fancy-title-63 a {
+  color: #ffffff;
+}
+
+#fancy-title-64 a {
+  color: #ffffff;
+}
+
+.page-section-62 {
+  background-color: #ff4351;
+  background-position: center center;
+  background-repeat: repeat;
+}
+
+.page-section-62 {
+  background-attachment: scroll;
+  background-color: #ff4351;
+  background-position: center center;
+  background-repeat: repeat;
+  min-height: 100px;
+}
+
+.page-section-62 .bg-layer .scroll-layer {
+  background-attachment: scroll;
+  background-position: center center;
+  background-repeat: repeat;
+}
+
+.page-section-62 .page-section-content.expandable-false, .page-section-62.expandable-true {
+  padding: 50px 0;
+}
+
+.page-section-62 .alt-title span {
+  background-color: #ff4351;
+}
+
+.page-section-62.section-expandable-true:not(.active-toggle):hover .mk-section-color-mask {
+  opacity: 0.6 !important;
+}
+
+.page-section-62 .expandable-section-trigger i {
+  opacity: 1;
+  top: 0 !important;
+}
+
+ .link {
+   text-decoration: underline !important; /** << LMAO */
+ }
+
