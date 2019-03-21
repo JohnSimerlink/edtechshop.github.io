@@ -995,3 +995,32 @@ body, .theme-main-wrapper {
    /*padd*/
  }
 
+ .image-cropper {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+
+    margin-right: 20px;
+ }
+ .subtitle {
+   font-family: Dotum, Roboto;
+   font-size: 14px;
+   color: lightgrey;
+
+ }
+
+.subtitle-spacing {
+  margin-bottom: 20px;
+}
+ .person-header {
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   align-items: flex-end;
+
+ }
+.person-header-title {
+  margin-bottom: 20px;
+}
