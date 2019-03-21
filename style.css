@@ -989,6 +989,9 @@ body, .theme-main-wrapper {
 }
 
  .link {
-   text-decoration: underline !important; /** << LMAO */
+   text-decoration: none !important; /** << LMAO */
+   border-bottom: 1px solid #ff98a1;
+   font-weight: 600;
+   /*padd*/
  }
 
