@@ -1,301 +1,1216 @@
 <!DOCTYPE html>
-<html  xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
 
-        <!--[if IE]>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-        <![endif]-->
-
-        
-        <title>
-        Ed Tech Shop         </title>
-         <!--[if lte IE 11]>
-         <link rel='stylesheet' href='http://brycebladon.com/wp-content/themes/ken/stylesheet/css/ie.css' />
-         <![endif]-->
-
-         <!--[if lte IE 9]>
-         <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-         <![endif]-->
-
-         <!--[if lte IE 8]>
-            <script type="text/javascript" src="http://brycebladon.com/wp-content/themes/ken/js/respond.js"></script>
-         <![endif]-->
+  <!--[if IE]>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <![endif]-->
 
 
-         <script type="text/javascript">
+  <title>
+    Ed Tech Shop </title>
+  <!--[if lte IE 11]>
+  <link rel='stylesheet' href='http://brycebladon.com/wp-content/themes/ken/stylesheet/css/ie.css'/>
+  <![endif]-->
 
-          // Declare theme scripts namespace
-          var ken = {};
-          var php = {};
+  <!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <![endif]-->
 
-          var mk_theme_dir = "http://brycebladon.com/wp-content/themes/ken",
-          mk_captcha_url = "http://brycebladon.com/wp-content/themes/ken/captcha/captcha.php",
-          mk_captcha_check_url = "http://brycebladon.com/wp-content/themes/ken/captcha/captcha-check.php",
-          mk_theme_js_path = "http://brycebladon.com/wp-content/themes/ken/js",
-          mk_captcha_placeholder = "Enter Captcha",
-          mk_captcha_invalid_txt = "Invalid. Try again.",
-          mk_captcha_correct_txt = "Captcha correct.",
-          mk_nav_res_width = 1140,
-          mk_header_sticky = 1,
-          mk_grid_width = 1140,
-          mk_preloader_logo = "",
-          mk_header_padding = 30,
-          mk_accent_color = "#ff4351",
-          mk_squeeze_header = 1,
-          mk_logo_height = 30,
-          mk_preloader_txt_color = "#444444",
-          mk_preloader_bg_color = "#ffffff";
-          mk_preloader_bar_color = "#ff4351",
-          mk_no_more_posts = "No More Posts";
-          mk_header_structure = "standard";
-          mk_boxed_header = "0";
-
-           var mk_header_trans_offset = 0;
-                   </script>
-
-    <script type="text/javascript">var ajaxurl = "http://brycebladon.com/wp-admin/admin-ajax.php"</script>                        <script>
-                            /* You can add more configuration options to webfontloader by previously defining the WebFontConfig with your options */
-                            if ( typeof WebFontConfig === "undefined" ) {
-                                WebFontConfig = new Object();
-                            }
-                            WebFontConfig['google'] = {families: ['Roboto:400', 'Roboto+Condensed:700,400&subset=latin']};
-
-                            (function() {
-                                var wf = document.createElement( 'script' );
-                                wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.5.3/webfont.js';
-                                wf.type = 'text/javascript';
-                                wf.async = 'true';
-                                var s = document.getElementsByTagName( 'script' )[0];
-                                s.parentNode.insertBefore( wf, s );
-                            })();
-                        </script>
-                    <link rel='dns-prefetch' href='//s.w.org' />
-		<script type="text/javascript">
-			// window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/brycebladon.com\/wp-includes\/js\/wp-emoji-release.min.js"}};
-			// !function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
-		</script>
-		<style type="text/css">
-img.wp-smiley,
-img.emoji {
-	display: inline !important;
-	border: none !important;
-	box-shadow: none !important;
-	height: 1em !important;
-	width: 1em !important;
-	margin: 0 .07em !important;
-	vertical-align: -0.1em !important;
-	background: none !important;
-	padding: 0 !important;
-}
-</style>
-<link rel='stylesheet' id='theme-styles-css'  href='http://brycebladon.com/wp-content/themes/ken/stylesheet/css/styles.min.css' type='text/css' media='all' />
-<link rel='stylesheet' id='theme-icons-css'  href='http://brycebladon.com/wp-content/themes/ken/stylesheet/css/theme-font-icons.min.css' type='text/css' media='all' />
-<link rel='stylesheet' id='js_composer_front-css'  href='http://brycebladon.com/wp-content/plugins/js_composer_theme/assets/css/js_composer.min.css' type='text/css' media='all' />
-<link rel='stylesheet' id='theme-options-css'  href='http://brycebladon.com/wp-content/uploads/mk_assets/theme-options-production.css' type='text/css' media='all' />
-<link rel='stylesheet' id='mk-style-css'  href='http://brycebladon.com/wp-content/themes/ken/style.css' type='text/css' media='all' />
-<link rel='stylesheet' id='theme-dynamic-styles-css'  href='http://brycebladon.com/wp-content/themes/ken/custom.css' type='text/css' media='all' />
-<style id='theme-dynamic-styles-inline-css' type='text/css'>
-body,.theme-main-wrapper { background-color:#ffffff;background-repeat:repeat;background-position:right bottom;background-attachment:scroll; } .mk-header-toolbar{ background-color:#eeeeee;background-repeat:repeat;background-position:right bottom;background-attachment:scroll; } #mk-header, .mk-secondary-header { background-color:#ffffff;background-repeat:repeat;background-position:right bottom;background-attachment:scroll; } .theme-main-wrapper:not(.vertical-header) #mk-header.transparent-header.light-header-skin, .theme-main-wrapper:not(.vertical-header) #mk-header.transparent-header.dark-header-skin{ border-top:none !important; background:transparent !important; } .theme-main-wrapper:not(.vertical-header) .sticky-header.sticky-header-padding { padding-top:90px; } .sticky-header-padding { background-color:#ffffff; } #mk-header.transparent-header-sticky, #mk-header.sticky-header:not(.transparent-header) { border-bottom:1px solid#e6e6e6; } #mk-page-title { padding:40px 0; } #mk-page-title .mk-page-heading{ font-size:18px; color:#ffffff; ; ; } #mk-breadcrumbs { line-height:18px; } #mk-page-title .mk-page-title-bg { background-color:#fafafa;background-repeat:repeat;background-position:right bottom;; height:100%; width:100%; top:0; left:0; transform:translateZ(0); -webkit-transform:translateZ(0); } .page-master-holder { position:relative; } .background-img--page { background-color:#ffffff;background-repeat:repeat;background-position:right bottom; height:100%; width:100%; position:absolute; top:0; left:0; transform:translateZ(0); -webkit-transform:translateZ(0); z-index:-1; } #mk-footer{ background-color:#191919;background-repeat:repeat;background-position:right bottom;background-attachment:scroll; } @font-face { font-family:'ArtbeesWPTokens'; src:url('http://brycebladon.com/wp-content/themes/ken/stylesheet/artbees-icons/ArtbeesWPTokens.eot'); src:url('http://brycebladon.com/wp-content/themes/ken/stylesheet/artbees-icons/ArtbeesWPTokens.eot?#iefix') format('embedded-opentype'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/artbees-icons/ArtbeesWPTokens.woff') format('woff'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/artbees-icons/ArtbeesWPTokens.ttf') format('truetype'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/artbees-icons/ArtbeesWPTokens.svg#ArtbeesWPTokens') format('svg'); font-weight:400; font-style:normal; } @font-face { font-family:'FontAwesome'; src:url('http://brycebladon.com/wp-content/themes/ken/stylesheet/awesome-icons/fontawesome-webfont.eot?v=4.2'); src:url('http://brycebladon.com/wp-content/themes/ken/stylesheet/awesome-icons/fontawesome-webfont.eot?#iefix&v=4.2') format('embedded-opentype'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/awesome-icons/fontawesome-webfont.woff?v=4.2') format('woff'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/awesome-icons/fontawesome-webfont.ttf?v=4.2') format('truetype'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/awesome-icons/fontawesome-webfont.svg#FontAwesome') format('svg');; font-weight:normal; font-style:normal; } @font-face { font-family:'star'; src:url('http://brycebladon.com/wp-content/themes/ken/stylesheet/woocommerce-fonts/star.eot'); src:url('../woocommerce-fonts/star.eot?#iefix') format('embedded-opentype'), url('../woocommerce-fonts/star.woff') format('woff'), url('../woocommerce-fonts/star.ttf') format('truetype'), url('../woocommerce-fonts/star.svg#star') format('svg'); font-weight:normal; font-style:normal; } @font-face { font-family:'WooCommerce'; src:url('http://brycebladon.com/wp-content/themes/ken/stylesheet/woocommerce-fonts/WooCommerce.eot'); src:url('http://brycebladon.com/wp-content/themes/ken/stylesheet/woocommerce-fonts/WooCommerce.eot?#iefix') format('embedded-opentype'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/woocommerce-fonts/WooCommerce.woff') format('woff'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/woocommerce-fonts/WooCommerce.ttf') format('truetype'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/woocommerce-fonts/WooCommerce.svg#WooCommerce') format('svg'); font-weight:normal; font-style:normal; } @font-face { font-family:'Flaticon'; src:url('http://brycebladon.com/wp-content/themes/ken/stylesheet/line-icon-set/flaticon.eot'); src:url('http://brycebladon.com/wp-content/themes/ken/stylesheet/line-icon-set/flaticon.eot#iefix') format('embedded-opentype'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/line-icon-set/flaticon.woff') format('woff'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/line-icon-set/flaticon.ttf') format('truetype'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/line-icon-set/flaticon.svg') format('svg'); font-weight:normal; font-style:normal; } @font-face { font-family:'Pe-icon-line'; src:url('http://brycebladon.com/wp-content/themes/ken/stylesheet/pe-line-icons/Pe-icon-line.eot?lqevop'); src:url('http://brycebladon.com/wp-content/themes/ken/stylesheet/pe-line-icons/Pe-icon-line.eot?#iefixlqevop') format('embedded-opentype'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/pe-line-icons/Pe-icon-line.woff?lqevop') format('woff'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/pe-line-icons/Pe-icon-line.ttf?lqevop') format('truetype'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/pe-line-icons/Pe-icon-line.svg?lqevop#Pe-icon-line') format('svg'); font-weight:normal; font-style:normal; } #fancy-title-2 a{ color:#ff4351; } #fancy-title-2 span.rounded{ border-radius:3px; } #fancy-title-2 span.full_rounded{ border-radius:50px; } #divider-4 .divider-inner{ margin:0 auto; } #divider-4 .divider-inner{ border-width:2px; height:2px; } #divider-4 .divider-inner{ letter-spacing:1px; margin:0 auto; } .btn-5 { color:#ff4351 !important; margin-bottom:10px; } .btn-5:before { background-color:#ff4351 !important; } .btn-5 .line { background-color:#ff4351 !important; }.btn-6 { color:#ff4351 !important; margin-bottom:10px; } .btn-6:before { background-color:#ff4351 !important; } .btn-6 .line { background-color:#ff4351 !important; }.btn-7 { color:#ff4351 !important; margin-bottom:10px; } .btn-7:before { background-color:#ff4351 !important; } .btn-7 .line { background-color:#ff4351 !important; } #icon-font-8 i { background-color:; color:#ff4351; border-color:; } #icon-font-8 i:hover { background-color:; color:; border-color:; } #mk-shape-divider-9 .shape__container { background-color:transparent; } #mk-shape-divider-9 .shape__container .shape { overflow:hidden; height:70px; } #mk-shape-divider-9 .shape__container .shape svg { position:relative; top:0.6px; } .page-section-1 .page-section-content.expandable-false, .page-section-1.expandable-true { padding-bottom:140px !important; } .page-section-1 { background-position:left bottom; background-repeat:no-repeat; } .page-section-1 { background-attachment:scroll; background-position:left bottom; background-repeat:no-repeat; min-height:100px; } .page-section-1 .bg-layer .scroll-layer{ background-attachment:scroll; background-position:left bottom; background-repeat:no-repeat; } .page-section-1 .page-section-content.expandable-false, .page-section-1.expandable-true { padding:30px 0; } .page-section-1 .alt-title span { } .page-section-1.section-expandable-true:not(.active-toggle):hover .mk-section-color-mask { opacity:0.2 !important; } .page-section-1 .expandable-section-trigger i { opacity:1; top:0 !important; } #fancy-title-11 a{ color:#ffffff; } #fancy-title-12 a{ color:#ffffff; } #fancy-title-13 a{ color:#ffffff; } #icon-font-14 i { background-color:; color:#ffffff; border-color:; } #icon-font-14 i:hover { background-color:; color:; border-color:; } #icon-font-15 i { background-color:; color:#ffffff; border-color:; } #icon-font-15 i:hover { background-color:; color:; border-color:; } #icon-font-16 i { background-color:; color:#ffffff; border-color:; } #icon-font-16 i:hover { background-color:; color:; border-color:; } #icon-font-17 i { background-color:; color:#ffffff; border-color:; } #icon-font-17 i:hover { background-color:; color:; border-color:; } #icon-font-18 i { background-color:; color:#ffffff; border-color:; } #icon-font-18 i:hover { background-color:; color:; border-color:; } #mk-shape-divider-19 .shape__container { background-color:transparent; } #mk-shape-divider-19 .shape__container .shape { overflow:hidden; height:70px; } #mk-shape-divider-19 .shape__container .shape svg { position:relative; top:0.6px; } .page-section-10 .page-section-content.expandable-false, .page-section-10.expandable-true { padding-bottom:130px !important; } .page-section-10 { background-color:#ff4351; background-position:left top; background-repeat:repeat; } .page-section-10 { background-attachment:scroll; background-color:#ff4351; background-position:left top; background-repeat:repeat; min-height:100px; } .page-section-10 .bg-layer .scroll-layer{ background-attachment:scroll; background-position:left top; background-repeat:repeat; } .page-section-10 .page-section-content.expandable-false, .page-section-10.expandable-true { padding:20px 0; } .page-section-10 .alt-title span { background-color:#ff4351; } .page-section-10.section-expandable-true:not(.active-toggle):hover .mk-section-color-mask { opacity:0.2 !important; } .page-section-10 .expandable-section-trigger i { opacity:1; top:0 !important; } #fancy-title-21 a{ color:#ff4351; } #fancy-title-22 a{ color:#ff4351; } #fancy-title-23 a{ color:#ff4351; } #fancy-title-24 a{ color:#ff4351; } #fancy-title-25 a{ color:#ff4351; } #icon-font-26 i { background-color:; color:#ff4351; border-color:; } #icon-font-26 i:hover { background-color:; color:; border-color:; } #mk-shape-divider-27 .shape__container { background-color:transparent; } #mk-shape-divider-27 .shape__container .shape { overflow:hidden; height:70px; } #mk-shape-divider-27 .shape__container .shape svg { position:relative; top:0.6px; } .page-section-20 .page-section-content.expandable-false, .page-section-20.expandable-true { padding-bottom:130px !important; } .page-section-20 { background-position:left top; background-repeat:repeat; } .page-section-20 { background-attachment:scroll; background-position:left top; background-repeat:repeat; min-height:100px; } .page-section-20 .bg-layer .scroll-layer{ background-attachment:scroll; background-position:left top; background-repeat:repeat; } .page-section-20 .page-section-content.expandable-false, .page-section-20.expandable-true { padding:20px 0; } .page-section-20 .alt-title span { } .page-section-20.section-expandable-true:not(.active-toggle):hover .mk-section-color-mask { opacity:0.2 !important; } .page-section-20 .expandable-section-trigger i { opacity:1; top:0 !important; } #fancy-title-29 a{ color:#ffffff; } #fancy-title-30 a{ color:#ffffff; } #fancy-title-31 a{ color:#ffffff; } #fancy-title-32 a{ color:#ffffff; } #mk-box-text-33 .icon-txt-default{ font-size:18px; } #mk-box-text-33.custom-skin i{ color:#ffffff !important; } #mk-box-text-33.custom-skin .icon-txt-default{ color:#ffffff !important; } #mk-box-text-33.custom-skin .icon-txt-hover{ color:#ffffff !important; } #mk-box-text-34 .icon-txt-default{ font-size:18px; } #mk-box-text-34.custom-skin i{ color:#ffffff !important; } #mk-box-text-34.custom-skin .icon-txt-default{ color:#ffffff !important; } #mk-box-text-34.custom-skin .icon-txt-hover{ color:#ffffff !important; } #mk-box-text-35 .icon-txt-default{ font-size:18px; } #mk-box-text-35.custom-skin i{ color:#ffffff !important; } #mk-box-text-35.custom-skin .icon-txt-default{ color:#ffffff !important; } #mk-box-text-35.custom-skin .icon-txt-hover{ color:#ffffff !important; } #mk-box-text-36 .icon-txt-default{ font-size:18px; } #mk-box-text-36.custom-skin i{ color:#ffffff !important; } #mk-box-text-36.custom-skin .icon-txt-default{ color:#ffffff !important; } #mk-box-text-36.custom-skin .icon-txt-hover{ color:#ffffff !important; } #icon-font-37 i { background-color:; color:#ffffff; border-color:; } #icon-font-37 i:hover { background-color:; color:; border-color:; } #mk-shape-divider-38 .shape__container { background-color:transparent; } #mk-shape-divider-38 .shape__container .shape { overflow:hidden; height:70px; } #mk-shape-divider-38 .shape__container .shape svg { position:relative; top:0.6px; } .page-section-28 .page-section-content.expandable-false, .page-section-28.expandable-true { padding-bottom:130px !important; } .page-section-28 { background-color:#ff4351; background-position:left top; background-repeat:repeat; } .page-section-28 { background-attachment:scroll; background-color:#ff4351; background-position:left top; background-repeat:repeat; min-height:100px; } .page-section-28 .bg-layer .scroll-layer{ background-attachment:scroll; background-position:left top; background-repeat:repeat; } .page-section-28 .page-section-content.expandable-false, .page-section-28.expandable-true { padding:20px 0; } .page-section-28 .alt-title span { background-color:#ff4351; } .page-section-28.section-expandable-true:not(.active-toggle):hover .mk-section-color-mask { opacity:0.2 !important; } .page-section-28 .expandable-section-trigger i { opacity:1; top:0 !important; } #fancy-title-40 a{ color:#ff4351; } #fancy-title-41 a{ color:#ff4351; } #divider-43 .divider-inner{ margin:0 auto; } #divider-43 .divider-inner{ border-width:2px; height:2px; } #divider-43 .divider-inner{ letter-spacing:1px; margin:0 auto; } #divider-45 .divider-inner{ width:35px; margin:0 auto; } #divider-45 .divider-inner{ border-width:2px; height:2px; } #divider-45 .divider-inner{ letter-spacing:1px; margin:0 auto; } #divider-46 .divider-inner{ width:35px; margin:0 auto; } #divider-46 .divider-inner{ border-width:2px; height:2px; } #divider-46 .divider-inner{ letter-spacing:1px; margin:0 auto; } #divider-47 .divider-inner{ width:35px; margin:0 auto; } #divider-47 .divider-inner{ border-width:2px; height:2px; } #divider-47 .divider-inner{ letter-spacing:1px; margin:0 auto; } #divider-48 .divider-inner{ width:35px; margin:0 auto; } #divider-48 .divider-inner{ border-width:2px; height:2px; } #divider-48 .divider-inner{ letter-spacing:1px; margin:0 auto; } #divider-49 .divider-inner{ width:35px; margin:0 auto; } #divider-49 .divider-inner{ border-width:2px; height:2px; } #divider-49 .divider-inner{ letter-spacing:1px; margin:0 auto; } #divider-50 .divider-inner{ width:35px; margin:0 auto; } #divider-50 .divider-inner{ border-width:2px; height:2px; } #divider-50 .divider-inner{ letter-spacing:1px; margin:0 auto; } #divider-51 .divider-inner{ width:35px; margin:0 auto; } #divider-51 .divider-inner{ border-width:2px; height:2px; } #divider-51 .divider-inner{ letter-spacing:1px; margin:0 auto; } #divider-52 .divider-inner{ width:35px; margin:0 auto; } #divider-52 .divider-inner{ border-width:2px; height:2px; } #divider-52 .divider-inner{ letter-spacing:1px; margin:0 auto; } #divider-53 .divider-inner{ width:35px; margin:0 auto; } #divider-53 .divider-inner{ border-width:2px; height:2px; } #divider-53 .divider-inner{ letter-spacing:1px; margin:0 auto; } #divider-54 .divider-inner{ width:35px; margin:0 auto; } #divider-54 .divider-inner{ border-width:2px; height:2px; } #divider-54 .divider-inner{ letter-spacing:1px; margin:0 auto; } #divider-55 .divider-inner{ width:35px; margin:0 auto; } #divider-55 .divider-inner{ border-width:2px; height:2px; } #divider-55 .divider-inner{ letter-spacing:1px; margin:0 auto; } #divider-56 .divider-inner{ width:35px; margin:0 auto; } #divider-56 .divider-inner{ border-width:2px; height:2px; } #divider-56 .divider-inner{ letter-spacing:1px; margin:0 auto; } #divider-57 .divider-inner{ width:35px; margin:0 auto; } #divider-57 .divider-inner{ border-width:2px; height:2px; } #divider-57 .divider-inner{ letter-spacing:1px; margin:0 auto; } #divider-58 .divider-inner{ width:35px; margin:0 auto; } #divider-58 .divider-inner{ border-width:2px; height:2px; } #divider-58 .divider-inner{ letter-spacing:1px; margin:0 auto; } #divider-59 .divider-inner{ width:35px; margin:0 auto; } #divider-59 .divider-inner{ border-width:2px; height:2px; } #divider-59 .divider-inner{ letter-spacing:1px; margin:0 auto; } #divider-60 .divider-inner{ width:35px; margin:0 auto; } #divider-60 .divider-inner{ border-width:2px; height:2px; } #divider-60 .divider-inner{ letter-spacing:1px; margin:0 auto; } #clients-shortcode-44 ul li:last-child .flip-wrapper { border-right-width:2px !important; } #clients-shortcode-44 .client-item-wrapper{ border-width:2px; } #clients-shortcode-44 ul li:last-child .flip-wrapper { border-right-width:2px !important; } #icon-font-61 i { background-color:; color:#ff4351; border-color:; } #icon-font-61 i:hover { background-color:; color:; border-color:; } .page-section-39 { background-position:left top; background-repeat:repeat; } .page-section-39 { background-attachment:scroll; background-position:left top; background-repeat:repeat; min-height:100px; } .page-section-39 .bg-layer .scroll-layer{ background-attachment:scroll; background-position:left top; background-repeat:repeat; } .page-section-39 .page-section-content.expandable-false, .page-section-39.expandable-true { padding:20px 0; } .page-section-39 .alt-title span { } .page-section-39.section-expandable-true:not(.active-toggle):hover .mk-section-color-mask { opacity:0.8 !important; } .page-section-39 .expandable-section-trigger i { opacity:1; top:0 !important; } #fancy-title-63 a{ color:#ffffff; } #fancy-title-64 a{ color:#ffffff; } .page-section-62 { background-color:#ff4351; background-position:center center; background-repeat:repeat; } .page-section-62 { background-attachment:scroll; background-color:#ff4351; background-position:center center; background-repeat:repeat; min-height:100px; } .page-section-62 .bg-layer .scroll-layer{ background-attachment:scroll; background-position:center center; background-repeat:repeat; } .page-section-62 .page-section-content.expandable-false, .page-section-62.expandable-true { padding:50px 0; } .page-section-62 .alt-title span { background-color:#ff4351; } .page-section-62.section-expandable-true:not(.active-toggle):hover .mk-section-color-mask { opacity:0.6 !important; } .page-section-62 .expandable-section-trigger i { opacity:1; top:0 !important; }
-</style>
-<script type='text/javascript' src='http://brycebladon.com/wp-includes/js/jquery/jquery.js'></script>
-<script type='text/javascript' src='http://brycebladon.com/wp-includes/js/jquery/jquery-migrate.min.js'></script>
-<link rel='https://api.w.org/' href='http://brycebladon.com/wp-json/' />
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://brycebladon.com/xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://brycebladon.com/wp-includes/wlwmanifest.xml" /> 
-<meta name="generator" content="WordPress 4.9.10" />
-<link rel="canonical" href="http://brycebladon.com/" />
-<link rel='shortlink' href='http://brycebladon.com/' />
-<link rel="alternate" type="application/json+oembed" href="http://brycebladon.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fbrycebladon.com%2F" />
-<link rel="alternate" type="text/xml+oembed" href="http://brycebladon.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fbrycebladon.com%2F&#038;format=xml" />
-<meta name="generator" content="ken 4.0.1" />
-<meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress."/>
-<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://brycebladon.com/wp-content/plugins/js_composer_theme/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>    </head>
+  <!--[if lte IE 8]>
+  <script type="text/javascript" src="http://brycebladon.com/wp-content/themes/ken/js/respond.js"></script>
+  <![endif]-->
 
 
-<body class="home page-template-default page page-id-25160 wpb-js-composer js-comp-ver-5.1.1 vc_responsive" itemscope="itemscope" itemtype="https://schema.org/WebPage" >
-  
+  <script type="text/javascript">
+
+		// Declare theme scripts namespace
+		var ken = {};
+		var php = {};
+
+		var mk_theme_dir = "http://brycebladon.com/wp-content/themes/ken",
+			mk_captcha_url = "http://brycebladon.com/wp-content/themes/ken/captcha/captcha.php",
+			mk_captcha_check_url = "http://brycebladon.com/wp-content/themes/ken/captcha/captcha-check.php",
+			mk_theme_js_path = "http://brycebladon.com/wp-content/themes/ken/js",
+			mk_captcha_placeholder = "Enter Captcha",
+			mk_captcha_invalid_txt = "Invalid. Try again.",
+			mk_captcha_correct_txt = "Captcha correct.",
+			mk_nav_res_width = 1140,
+			mk_header_sticky = 1,
+			mk_grid_width = 1140,
+			mk_preloader_logo = "",
+			mk_header_padding = 30,
+			mk_accent_color = "#ff4351",
+			mk_squeeze_header = 1,
+			mk_logo_height = 30,
+			mk_preloader_txt_color = "#444444",
+			mk_preloader_bg_color = "#ffffff";
+		mk_preloader_bar_color = "#ff4351",
+			mk_no_more_posts = "No More Posts";
+		mk_header_structure = "standard";
+		mk_boxed_header = "0";
+
+		var mk_header_trans_offset = 0;
+  </script>
+
+  <script type="text/javascript">var ajaxurl = "http://brycebladon.com/wp-admin/admin-ajax.php"</script>
+  <script>
+		/* You can add more configuration options to webfontloader by previously defining the WebFontConfig with your options */
+		if (typeof WebFontConfig === "undefined") {
+			WebFontConfig = new Object();
+		}
+		WebFontConfig['google'] = {families: ['Roboto:400', 'Roboto+Condensed:700,400&subset=latin']};
+
+		(function () {
+			var wf = document.createElement('script');
+			wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.5.3/webfont.js';
+			wf.type = 'text/javascript';
+			wf.async = 'true';
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(wf, s);
+		})();
+  </script>
+  <link rel='dns-prefetch' href='//s.w.org'/>
+  <script type="text/javascript">
+		// window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/brycebladon.com\/wp-includes\/js\/wp-emoji-release.min.js"}};
+		// !function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+  </script>
+  <style type="text/css">
+    img.wp-smiley,
+    img.emoji {
+      display: inline !important;
+      border: none !important;
+      box-shadow: none !important;
+      height: 1em !important;
+      width: 1em !important;
+      margin: 0 .07em !important;
+      vertical-align: -0.1em !important;
+      background: none !important;
+      padding: 0 !important;
+    }
+  </style>
+  <link rel='stylesheet' href='style.css' type='text/css' media='all'/>
+  <link rel='stylesheet' id='theme-styles-css'
+        href='http://brycebladon.com/wp-content/themes/ken/stylesheet/css/styles.min.css' type='text/css' media='all'/>
+  <link rel='stylesheet' id='theme-icons-css'
+        href='http://brycebladon.com/wp-content/themes/ken/stylesheet/css/theme-font-icons.min.css' type='text/css'
+        media='all'/>
+  <link rel='stylesheet' id='js_composer_front-css'
+        href='http://brycebladon.com/wp-content/plugins/js_composer_theme/assets/css/js_composer.min.css'
+        type='text/css' media='all'/>
+  <link rel='stylesheet' id='theme-options-css'
+        href='http://brycebladon.com/wp-content/uploads/mk_assets/theme-options-production.css' type='text/css'
+        media='all'/>
+  <link rel='stylesheet' id='mk-style-css' href='http://brycebladon.com/wp-content/themes/ken/style.css' type='text/css'
+        media='all'/>
+  <link rel='stylesheet' id='theme-dynamic-styles-css' href='http://brycebladon.com/wp-content/themes/ken/custom.css'
+        type='text/css' media='all'/>
+  <script type='text/javascript' src='http://brycebladon.com/wp-includes/js/jquery/jquery.js'></script>
+  <script type='text/javascript' src='http://brycebladon.com/wp-includes/js/jquery/jquery-migrate.min.js'></script>
+  <link rel='https://api.w.org/' href='http://brycebladon.com/wp-json/'/>
+  <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://brycebladon.com/xmlrpc.php?rsd"/>
+  <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://brycebladon.com/wp-includes/wlwmanifest.xml"/>
+  <meta name="generator" content="WordPress 4.9.10"/>
+  <link rel="canonical" href="http://brycebladon.com/"/>
+  <link rel='shortlink' href='http://brycebladon.com/'/>
+  <link rel="alternate" type="application/json+oembed"
+        href="http://brycebladon.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fbrycebladon.com%2F"/>
+  <link rel="alternate" type="text/xml+oembed"
+        href="http://brycebladon.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fbrycebladon.com%2F&#038;format=xml"/>
+  <meta name="generator" content="ken 4.0.1"/>
+  <meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress."/>
+  <!--[if lte IE 9]>
+  <link rel="stylesheet" type="text/css"
+        href="http://brycebladon.com/wp-content/plugins/js_composer_theme/assets/css/vc_lte_ie9.min.css" media="screen">
+  <![endif]-->
+  <noscript>
+    <style type="text/css"> .wpb_animate_when_almost_visible {
+      opacity: 1;
+    }</style>
+  </noscript>
+</head>
+
+
+<body class="home page-template-default page page-id-25160 wpb-js-composer js-comp-ver-5.1.1 vc_responsive"
+      itemscope="itemscope" itemtype="https://schema.org/WebPage">
 
 
 <div class="theme-main-wrapper ">
 
-<div id="mk-boxed-layout" class="mk-full-enabled ">
-<div id="theme-page" class="page-master-holder" role="main" itemprop="mainContentOfPage" >
-  	<div class="background-img background-img--page"></div>
-	<div class="mk-main-wrapper-holder">
-		<div class="theme-page-wrapper mk-main-wrapper full-layout no-padding mk-grid vc_row-fluid">
-			<div class="theme-content no-padding" itemprop="mainContentOfPage">
-			
-			
-										<div class="clearboth"></div></div></div></div><div id="Home"   data-intro-effect="false" class="page-section-1  expandable-false fullwidth-false section-expandable-false full-height-false mk-background-stretch  mk-video-holder mk-page-section parallax-false  " data-direction="vertical"><div class="bg-layer clip"><div  class="mk-video-color-mask"></div><div class="scroll-layer mk-background-stretch " style=""  css-attach="scroll" data-attach="scroll"></div></div><div class="mk-grid vc_row-fluid page-section-content expandable-false"><div class="mk-padding-wrapper">
-	<div style="" class="vc_col-sm-12 wpb_column column_container ">
-			<div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper"></div></div></div></div><div class="clearboth"></div><div class="mk-shortcode mk-padding-shortcode " style="height:200px"></div><div class="clearboth"></div><h2  style="font-size: 70px;text-align:center;line-height:70px;letter-spacing:0px;color: #ff4351;font-weight:bold;margin-bottom:0px; margin-top:0px; text-transform:uppercase; " id="fancy-title-2" class="mk-fancy-title responsive-align-center fancy-title-responsive-title stroke-title center-align   "><span class="fancy-title-span pointed" style="border:5px solid #ff4351;">Ed Tech Shop</span></h2><div style="font-size: 20px;color: #ffffff;font-weight:bold;margin-top:0px;margin-bottom:20px;" id="fancy-title-3" class="mk-fancy-text title-box-center   "><span style="background-color:#ff4351; box-shadow: 8px 0 0 #ff4351, -8px 0 0 #ff4351;line-height:40px">WE BUILD EDUCATION PRODUCTS</span></div><div class="clearboth"></div><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper"></div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner "><div class="wpb_wrapper"><div id="divider-4" style="padding: 10px 0px 20px 0px;" class="mk-divider divider_full_width divider-single  "><div style="border-color:#ff4351;" class="divider-inner"></div></div><div class="clearboth"></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "><div class="wpb_wrapper"></div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="mk-button-align center"><a href="#about-1" target="_self"  class="mk-button btn-5  fancy_link-button large pointed  mk-smooth  "><span>About Us</span><span class="line"></span></a></div>
+  <div id="mk-boxed-layout" class="mk-full-enabled ">
+    <div id="theme-page" class="page-master-holder" role="main" itemprop="mainContentOfPage">
+      <div class="background-img background-img--page"></div>
+      <div class="mk-main-wrapper-holder">
+        <div class="theme-page-wrapper mk-main-wrapper full-layout no-padding mk-grid vc_row-fluid">
+          <div class="theme-content no-padding" itemprop="mainContentOfPage">
 
-<div class="mk-button-align center"><a href="http://brycebladon.com/#work-1" target="_self"  class="mk-button btn-6  fancy_link-button large pointed  mk-smooth  "><span>Work With Us</span><span class="line"></span></a></div>
 
-<div class="mk-button-align center"><a href="http://brycebladon.com/#contact-1" target="_self"  class="mk-button btn-7  fancy_link-button large pointed  mk-smooth  "><span>The Team</span><span class="line"></span></a></div>
+            <div class="clearboth"></div>
+          </div>
+        </div>
+      </div>
+      <div id="Home" data-intro-effect="false"
+           class="page-section-1  expandable-false fullwidth-false section-expandable-false full-height-false mk-background-stretch  mk-video-holder mk-page-section parallax-false  "
+           data-direction="vertical">
+        <div class="bg-layer clip">
+          <div class="mk-video-color-mask"></div>
+          <div class="scroll-layer mk-background-stretch " style="" css-attach="scroll" data-attach="scroll"></div>
+        </div>
+        <div class="mk-grid vc_row-fluid page-section-content expandable-false">
+          <div class="mk-padding-wrapper">
+            <div style="" class="vc_col-sm-12 wpb_column column_container ">
+              <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                <div class="wpb_column vc_column_container vc_col-sm-12">
+                  <div class="vc_column-inner ">
+                    <div class="wpb_wrapper"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="clearboth"></div>
+              <div class="mk-shortcode mk-padding-shortcode " style="height:200px"></div>
+              <div class="clearboth"></div>
+              <h2 style="font-size: 70px;text-align:center;line-height:70px;letter-spacing:0px;color: #ff4351;font-weight:bold;margin-bottom:0px; margin-top:0px; text-transform:uppercase; "
+                  id="fancy-title-2"
+                  class="mk-fancy-title responsive-align-center fancy-title-responsive-title stroke-title center-align   ">
+                <span class="fancy-title-span pointed" style="border:5px solid #ff4351;">Ed Tech Shop</span></h2>
+              <div style="font-size: 20px;color: #ffffff;font-weight:bold;margin-top:0px;margin-bottom:20px;"
+                   id="fancy-title-3" class="mk-fancy-text title-box-center   "><span
+                      style="background-color:#ff4351; box-shadow: 8px 0 0 #ff4351, -8px 0 0 #ff4351;line-height:40px">WE BUILD EDUCATION PRODUCTS</span>
+              </div>
+              <div class="clearboth"></div>
+              <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                <div class="wpb_column vc_column_container vc_col-sm-3">
+                  <div class="vc_column-inner ">
+                    <div class="wpb_wrapper"></div>
+                  </div>
+                </div>
+                <div class="wpb_column vc_column_container vc_col-sm-6">
+                  <div class="vc_column-inner ">
+                    <div class="wpb_wrapper">
+                      <div id="divider-4" style="padding: 10px 0px 20px 0px;"
+                           class="mk-divider divider_full_width divider-single  ">
+                        <div style="border-color:#ff4351;" class="divider-inner"></div>
+                      </div>
+                      <div class="clearboth"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="wpb_column vc_column_container vc_col-sm-3">
+                  <div class="vc_column-inner ">
+                    <div class="wpb_wrapper"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                <div class="wpb_column vc_column_container vc_col-sm-4">
+                  <div class="vc_column-inner ">
+                    <div class="wpb_wrapper"></div>
+                  </div>
+                </div>
+                <div class="wpb_column vc_column_container vc_col-sm-4">
+                  <div class="vc_column-inner ">
+                    <div class="wpb_wrapper">
+                      <div class="mk-button-align center"><a href="#about-1" target="_self"
+                                                             class="mk-button btn-5  fancy_link-button large pointed  mk-smooth  "><span>About Us</span><span
+                              class="line"></span></a></div>
 
-<div class="clearboth"></div><div class="mk-shortcode mk-padding-shortcode " style="height:30px"></div><div class="clearboth"></div><span id="icon-font-8" class="mk-font-icons mk-shortcode icon-align-center remove-frame "><a class="mk-smooth" href="#about-1" target="_self"><i style="margin:15px 4px; border-width:2px; " class="mk-theme-icon-bottom-bigger custom-font-icon mk-size-medium mk-pulse"></i></a></span></div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "><div class="wpb_wrapper"></div></div></div></div>
-	</div></div><div class="clearboth"></div></div><div class="clearboth"></div><div data-istop="[] - [mk-shape-divider--stick-bottom]" id="mk-shape-divider-9" class="mk-shape-divider mk-shape-divider--stick diagonal-bottom-style small-size  mk-shape-divider--stick-bottom ">
-                <div class="shape__container">
-                    <div class="shape">
-            <svg width="100%" height="70px">
+                      <div class="mk-button-align center"><a href="http://brycebladon.com/#work-1" target="_self"
+                                                             class="mk-button btn-6  fancy_link-button large pointed  mk-smooth  "><span>Work With Us</span><span
+                              class="line"></span></a></div>
+
+                      <div class="mk-button-align center"><a href="http://brycebladon.com/#contact-1" target="_self"
+                                                             class="mk-button btn-7  fancy_link-button large pointed  mk-smooth  "><span>The Team</span><span
+                              class="line"></span></a></div>
+
+                      <div class="clearboth"></div>
+                      <div class="mk-shortcode mk-padding-shortcode " style="height:30px"></div>
+                      <div class="clearboth"></div>
+                      <span id="icon-font-8" class="mk-font-icons mk-shortcode icon-align-center remove-frame "><a
+                              class="mk-smooth" href="#about-1" target="_self"><i
+                              style="margin:15px 4px; border-width:2px; "
+                              class="mk-theme-icon-bottom-bigger custom-font-icon mk-size-medium mk-pulse"></i></a></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="wpb_column vc_column_container vc_col-sm-4">
+                  <div class="vc_column-inner ">
+                    <div class="wpb_wrapper"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="clearboth"></div>
+        </div>
+        <div class="clearboth"></div>
+        <div data-istop="[] - [mk-shape-divider--stick-bottom]" id="mk-shape-divider-9"
+             class="mk-shape-divider mk-shape-divider--stick diagonal-bottom-style small-size  mk-shape-divider--stick-bottom ">
+          <div class="shape__container">
+            <div class="shape">
+              <svg width="100%" height="70px">
                 <defs>
-                    <pattern id="shapeDividerPattern-9" preserveAspectRatio="none" style="background-repeat: none;" patternUnits="userSpaceOnUse" x="0" y="0" width="100%" height="700px" viewBox="0 0 100 700" >
-                        <polygon fill="#ff4351" points="100,70 100,0 0,70 "/>
-                    </pattern>
+                  <pattern id="shapeDividerPattern-9" preserveAspectRatio="none" style="background-repeat: none;"
+                           patternUnits="userSpaceOnUse" x="0" y="0" width="100%" height="700px" viewBox="0 0 100 700">
+                    <polygon fill="#ff4351" points="100,70 100,0 0,70 "/>
+                  </pattern>
                 </defs>
 
                 <!-- Background -->
-                <rect x="0" y="0" width="100%" height="70px" fill="url(#shapeDividerPattern-9)" />
-            </svg>
-        
-                    </div>
+                <rect x="0" y="0" width="100%" height="70px" fill="url(#shapeDividerPattern-9)"/>
+              </svg>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mk-main-wrapper-holder">
+        <div class="theme-page-wrapper full-layout mk-grid vc_row-fluid no-padding">
+          <div class="theme-content no-padding">
+            <div class="clearboth"></div>
+          </div>
+        </div>
+      </div>
+      <div id="about-1" data-intro-effect="false"
+           class="page-section-10  expandable-false fullwidth-false section-expandable-false full-height-false  mk-video-holder mk-page-section parallax-false  "
+           data-direction="vertical">
+        <div class="bg-layer clip">
+          <div class="mk-video-color-mask"></div>
+          <div class="scroll-layer " style="" css-attach="fixed" data-attach="scroll"></div>
+        </div>
+        <div class="mk-grid vc_row-fluid page-section-content expandable-false">
+          <div class="mk-padding-wrapper">
+            <div style="" class="vc_col-sm-12 wpb_column column_container ">
+              <div class="clearboth"></div>
+              <div class="mk-shortcode mk-padding-shortcode " style="height:50px"></div>
+              <div class="clearboth"></div>
+              <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                <div class="wpb_column vc_column_container vc_col-sm-2">
+                  <div class="vc_column-inner ">
+                    <div class="wpb_wrapper"></div>
+                  </div>
                 </div>
-            </div></div><div class="mk-main-wrapper-holder"><div class="theme-page-wrapper full-layout mk-grid vc_row-fluid no-padding"><div class="theme-content no-padding"><div class="clearboth"></div></div></div></div><div id="about-1"   data-intro-effect="false" class="page-section-10  expandable-false fullwidth-false section-expandable-false full-height-false  mk-video-holder mk-page-section parallax-false  " data-direction="vertical"><div class="bg-layer clip"><div  class="mk-video-color-mask"></div><div class="scroll-layer " style=""  css-attach="fixed" data-attach="scroll"></div></div><div class="mk-grid vc_row-fluid page-section-content expandable-false"><div class="mk-padding-wrapper">
-	<div style="" class="vc_col-sm-12 wpb_column column_container ">
-			<div class="clearboth"></div><div class="mk-shortcode mk-padding-shortcode " style="height:50px"></div><div class="clearboth"></div><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner "><div class="wpb_wrapper"></div></div></div><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner "><div class="wpb_wrapper"><h3  style="font-size: 36px;text-align:center;line-height:50px;letter-spacing:4px;color: #ffffff;font-weight:600;margin-bottom:20px; margin-top:10px; " id="fancy-title-11" class="mk-fancy-title responsive-align-center simple-title center-align   "><span class="fancy-title-span pointed" >Hi, my name&#8217;s Bryce.</span></h3><h3  style="font-size: 20px;text-align:center;line-height:30px;letter-spacing:0px;color: #ffffff;font-weight:inherit;margin-bottom:20px; margin-top:10px; " id="fancy-title-12" class="mk-fancy-title responsive-align-center simple-title center-align   "><span class="fancy-title-span pointed" >
-<p style="text-align: left;">I enjoy long walks, dark drinks, and listing things in threes.</p>
-</span></h3><h3  style="font-size: 20px;text-align:center;line-height:30px;letter-spacing:0px;color: #ffffff;font-weight:inherit;margin-bottom:20px; margin-top:10px; " id="fancy-title-13" class="mk-fancy-title responsive-align-center simple-title center-align   "><span class="fancy-title-span pointed" >
-<p style="text-align: left;">I co-created <a href="https://www.cryptokitties.co/"><strong>CryptoKitties</strong>.</a> When I&#8217;m not writing books or catty puns, I help the brilliant team at <strong><a href="https://dapperlabs.com">Dapper Labs</a> </strong>create the brands, content, and communication strategies for their award-winning products and businesses.</p>
-</span></h3><div class="clearboth"></div><div class="mk-shortcode mk-padding-shortcode " style="height:40px"></div><div class="clearboth"></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner "><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner "><div class="wpb_wrapper"></div></div></div><div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner "><div class="wpb_wrapper"><span id="icon-font-14" class="mk-font-icons mk-shortcode icon-align-center remove-frame "><i style="margin:4px 4px; border-width:2px; " class="mk-icon-clock-o custom-font-icon mk-size-large"></i></span><div class="mk-milestone classic-style " ><div style="color:#ffffff;font-size:24px; line-height:24px;border-bottom: 2px solid #eeeeee;" class="milestone-number content-text" data-speed="8000" data-stop="10">0</div><div class="clearboth"></div><div style="font-size:12px;color:#ffffff;" class="milestone-text">YEARS OF EXPERIENCE</div></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner "><div class="wpb_wrapper"><span id="icon-font-15" class="mk-font-icons mk-shortcode icon-align-center remove-frame "><i style="margin:4px 4px; border-width:2px; " class="mk-icon-book custom-font-icon mk-size-large"></i></span><div class="mk-milestone classic-style " ><div style="color:#ffffff;font-size:24px; line-height:24px;border-bottom: 2px solid #eeeeee;" class="milestone-number content-text" data-speed="4000" data-stop="12">0</div><div class="clearboth"></div><div style="font-size:12px;color:#ffffff;" class="milestone-text">BOOKS PUBLISHED</div></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner "><div class="wpb_wrapper"><span id="icon-font-16" class="mk-font-icons mk-shortcode icon-align-center remove-frame "><i style="margin:4px 4px; border-width:2px; " class="mk-li-mail custom-font-icon mk-size-large"></i></span><div class="mk-milestone classic-style " ><div style="color:#ffffff;font-size:24px; line-height:24px;border-bottom: 2px solid #eeeeee;" class="milestone-number content-text" data-speed="8000" data-stop="25000">0</div><div class="clearboth"></div><div style="font-size:12px;color:#ffffff;" class="milestone-text">EMAIL SUBSCRIBERS</div></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner "><div class="wpb_wrapper"><span id="icon-font-17" class="mk-font-icons mk-shortcode icon-align-center remove-frame "><i style="margin:4px 4px; border-width:2px; " class="mk-icon-users custom-font-icon mk-size-large"></i></span><div class="mk-milestone classic-style " ><div style="color:#ffffff;font-size:24px; line-height:24px;border-bottom: 2px solid #eeeeee;" class="milestone-number content-text" data-speed="6000" data-stop="780000">0</div><div class="clearboth"></div><div style="font-size:12px;color:#ffffff;" class="milestone-text">BLOG FOLLOWERS</div></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner "><div class="wpb_wrapper"></div></div></div></div><div class="clearboth"></div><div class="mk-shortcode mk-padding-shortcode " style="height:40px"></div><div class="clearboth"></div><span id="icon-font-18" class="mk-font-icons mk-shortcode icon-align-center remove-frame "><a class="mk-smooth" href="#work-1" target="_self"><i style="margin:15px 4px; border-width:2px; " class="mk-theme-icon-bottom-bigger custom-font-icon mk-size-medium mk-pulse"></i></a></span>
-	</div></div><div class="clearboth"></div></div><div class="clearboth"></div><div data-istop="[] - [mk-shape-divider--stick-bottom]" id="mk-shape-divider-19" class="mk-shape-divider mk-shape-divider--stick diagonal-bottom-style small-size  mk-shape-divider--stick-bottom ">
-                <div class="shape__container">
-                    <div class="shape">
-            <svg width="100%" height="70px">
+                <div class="wpb_column vc_column_container vc_col-sm-8">
+                  <div class="vc_column-inner ">
+                    <div class="wpb_wrapper"><h3
+                            style="font-size: 36px;text-align:center;line-height:50px;letter-spacing:4px;color: #ffffff;font-weight:600;margin-bottom:20px; margin-top:10px; "
+                            id="fancy-title-11"
+                            class="mk-fancy-title responsive-align-center simple-title center-align   "><span
+                            class="fancy-title-span pointed">Hi, my name&#8217;s Bryce.</span></h3>
+                      <h3 style="font-size: 20px;text-align:center;line-height:30px;letter-spacing:0px;color: #ffffff;font-weight:inherit;margin-bottom:20px; margin-top:10px; "
+                          id="fancy-title-12"
+                          class="mk-fancy-title responsive-align-center simple-title center-align   "><span
+                              class="fancy-title-span pointed">
+                                    <p style="text-align: left;">I enjoy long walks, dark drinks, and listing things in threes.</p>
+                                    </span></h3>
+                      <h3 style="font-size: 20px;text-align:center;line-height:30px;letter-spacing:0px;color: #ffffff;font-weight:inherit;margin-bottom:20px; margin-top:10px; "
+                          id="fancy-title-13"
+                          class="mk-fancy-title responsive-align-center simple-title center-align   "><span
+                              class="fancy-title-span pointed">
+                                    <p style="text-align: left;">I co-created <a
+                                            href="https://www.cryptokitties.co/"><strong>CryptoKitties</strong>.</a> When I&#8217;m not writing books or catty puns, I help the brilliant team at <strong><a
+                                            href="https://dapperlabs.com">Dapper Labs</a> </strong>create the brands, content, and communication strategies for their award-winning products and businesses.</p>
+                                    </span></h3>
+                      <div class="clearboth"></div>
+                      <div class="mk-shortcode mk-padding-shortcode " style="height:40px"></div>
+                      <div class="clearboth"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="wpb_column vc_column_container vc_col-sm-2">
+                  <div class="vc_column-inner ">
+                    <div class="wpb_wrapper"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                <div class="wpb_column vc_column_container vc_col-sm-2">
+                  <div class="vc_column-inner ">
+                    <div class="wpb_wrapper"></div>
+                  </div>
+                </div>
+                <div class="wpb_column vc_column_container vc_col-sm-2">
+                  <div class="vc_column-inner ">
+                    <div class="wpb_wrapper"><span id="icon-font-14"
+                                                   class="mk-font-icons mk-shortcode icon-align-center remove-frame "><i
+                            style="margin:4px 4px; border-width:2px; "
+                            class="mk-icon-clock-o custom-font-icon mk-size-large"></i></span>
+                      <div class="mk-milestone classic-style ">
+                        <div style="color:#ffffff;font-size:24px; line-height:24px;border-bottom: 2px solid #eeeeee;"
+                             class="milestone-number content-text" data-speed="8000" data-stop="10">0
+                        </div>
+                        <div class="clearboth"></div>
+                        <div style="font-size:12px;color:#ffffff;" class="milestone-text">YEARS OF EXPERIENCE</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="wpb_column vc_column_container vc_col-sm-2">
+                  <div class="vc_column-inner ">
+                    <div class="wpb_wrapper"><span id="icon-font-15"
+                                                   class="mk-font-icons mk-shortcode icon-align-center remove-frame "><i
+                            style="margin:4px 4px; border-width:2px; "
+                            class="mk-icon-book custom-font-icon mk-size-large"></i></span>
+                      <div class="mk-milestone classic-style ">
+                        <div style="color:#ffffff;font-size:24px; line-height:24px;border-bottom: 2px solid #eeeeee;"
+                             class="milestone-number content-text" data-speed="4000" data-stop="12">0
+                        </div>
+                        <div class="clearboth"></div>
+                        <div style="font-size:12px;color:#ffffff;" class="milestone-text">BOOKS PUBLISHED</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="wpb_column vc_column_container vc_col-sm-2">
+                  <div class="vc_column-inner ">
+                    <div class="wpb_wrapper"><span id="icon-font-16"
+                                                   class="mk-font-icons mk-shortcode icon-align-center remove-frame "><i
+                            style="margin:4px 4px; border-width:2px; "
+                            class="mk-li-mail custom-font-icon mk-size-large"></i></span>
+                      <div class="mk-milestone classic-style ">
+                        <div style="color:#ffffff;font-size:24px; line-height:24px;border-bottom: 2px solid #eeeeee;"
+                             class="milestone-number content-text" data-speed="8000" data-stop="25000">0
+                        </div>
+                        <div class="clearboth"></div>
+                        <div style="font-size:12px;color:#ffffff;" class="milestone-text">EMAIL SUBSCRIBERS</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="wpb_column vc_column_container vc_col-sm-2">
+                  <div class="vc_column-inner ">
+                    <div class="wpb_wrapper"><span id="icon-font-17"
+                                                   class="mk-font-icons mk-shortcode icon-align-center remove-frame "><i
+                            style="margin:4px 4px; border-width:2px; "
+                            class="mk-icon-users custom-font-icon mk-size-large"></i></span>
+                      <div class="mk-milestone classic-style ">
+                        <div style="color:#ffffff;font-size:24px; line-height:24px;border-bottom: 2px solid #eeeeee;"
+                             class="milestone-number content-text" data-speed="6000" data-stop="780000">0
+                        </div>
+                        <div class="clearboth"></div>
+                        <div style="font-size:12px;color:#ffffff;" class="milestone-text">BLOG FOLLOWERS</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="wpb_column vc_column_container vc_col-sm-2">
+                  <div class="vc_column-inner ">
+                    <div class="wpb_wrapper"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="clearboth"></div>
+              <div class="mk-shortcode mk-padding-shortcode " style="height:40px"></div>
+              <div class="clearboth"></div>
+              <span id="icon-font-18" class="mk-font-icons mk-shortcode icon-align-center remove-frame "><a
+                      class="mk-smooth" href="#work-1" target="_self"><i style="margin:15px 4px; border-width:2px; "
+                                                                         class="mk-theme-icon-bottom-bigger custom-font-icon mk-size-medium mk-pulse"></i></a></span>
+            </div>
+          </div>
+          <div class="clearboth"></div>
+        </div>
+        <div class="clearboth"></div>
+        <div data-istop="[] - [mk-shape-divider--stick-bottom]" id="mk-shape-divider-19"
+             class="mk-shape-divider mk-shape-divider--stick diagonal-bottom-style small-size  mk-shape-divider--stick-bottom ">
+          <div class="shape__container">
+            <div class="shape">
+              <svg width="100%" height="70px">
                 <defs>
-                    <pattern id="shapeDividerPattern-19" preserveAspectRatio="none" style="background-repeat: none;" patternUnits="userSpaceOnUse" x="0" y="0" width="100%" height="700px" viewBox="0 0 100 700" >
-                        <polygon fill="#ffffff" points="100,70 100,0 0,70 "/>
-                    </pattern>
+                  <pattern id="shapeDividerPattern-19" preserveAspectRatio="none" style="background-repeat: none;"
+                           patternUnits="userSpaceOnUse" x="0" y="0" width="100%" height="700px" viewBox="0 0 100 700">
+                    <polygon fill="#ffffff" points="100,70 100,0 0,70 "/>
+                  </pattern>
                 </defs>
 
                 <!-- Background -->
-                <rect x="0" y="0" width="100%" height="70px" fill="url(#shapeDividerPattern-19)" />
-            </svg>
-        
-                    </div>
+                <rect x="0" y="0" width="100%" height="70px" fill="url(#shapeDividerPattern-19)"/>
+              </svg>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mk-main-wrapper-holder">
+        <div class="theme-page-wrapper full-layout mk-grid vc_row-fluid no-padding">
+          <div class="theme-content no-padding">
+            <div class="clearboth"></div>
+          </div>
+        </div>
+      </div>
+      <div id="work-1" data-intro-effect="false"
+           class="page-section-20  expandable-false fullwidth-false section-expandable-false full-height-false  mk-video-holder mk-page-section parallax-false  "
+           data-direction="vertical">
+        <div class="bg-layer clip">
+          <div class="mk-video-color-mask"></div>
+          <div class="scroll-layer " style="" css-attach="fixed" data-attach="scroll"></div>
+        </div>
+        <div class="mk-grid vc_row-fluid page-section-content expandable-false">
+          <div class="mk-padding-wrapper">
+            <div style="" class="vc_col-sm-12 wpb_column column_container ">
+              <div class="clearboth"></div>
+              <div class="mk-shortcode mk-padding-shortcode " style="height:50px"></div>
+              <div class="clearboth"></div>
+              <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                <div class="wpb_column vc_column_container vc_col-sm-2">
+                  <div class="vc_column-inner ">
+                    <div class="wpb_wrapper"></div>
+                  </div>
                 </div>
-            </div></div><div class="mk-main-wrapper-holder"><div class="theme-page-wrapper full-layout mk-grid vc_row-fluid no-padding"><div class="theme-content no-padding"><div class="clearboth"></div></div></div></div><div id="work-1"   data-intro-effect="false" class="page-section-20  expandable-false fullwidth-false section-expandable-false full-height-false  mk-video-holder mk-page-section parallax-false  " data-direction="vertical"><div class="bg-layer clip"><div  class="mk-video-color-mask"></div><div class="scroll-layer " style=""  css-attach="fixed" data-attach="scroll"></div></div><div class="mk-grid vc_row-fluid page-section-content expandable-false"><div class="mk-padding-wrapper">
-	<div style="" class="vc_col-sm-12 wpb_column column_container ">
-			<div class="clearboth"></div><div class="mk-shortcode mk-padding-shortcode " style="height:50px"></div><div class="clearboth"></div><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner "><div class="wpb_wrapper"></div></div></div><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner "><div class="wpb_wrapper"><h3  style="font-size: 36px;text-align:center;line-height:50px;letter-spacing:4px;color: #ff4351;font-weight:600;margin-bottom:20px; margin-top:10px; " id="fancy-title-21" class="mk-fancy-title responsive-align-center simple-title center-align   "><span class="fancy-title-span pointed" >I&#8217;m a writer and consultant.</span></h3><h3  style="font-size: 20px;text-align:center;line-height:30px;letter-spacing:0px;color: #ff4351;font-weight:inherit;margin-bottom:20px; margin-top:10px; " id="fancy-title-22" class="mk-fancy-title responsive-align-center simple-title center-align   "><span class="fancy-title-span pointed" >
-<p style="text-align: left;">I help clients with everything from ideation to content creation to full-scale strategy.</p>
-</span></h3><h3  style="font-size: 20px;text-align:center;line-height:30px;letter-spacing:0px;color: #ff4351;font-weight:inherit;margin-bottom:20px; margin-top:10px; " id="fancy-title-23" class="mk-fancy-title responsive-align-center simple-title center-align   "><span class="fancy-title-span pointed" >
-<p style="text-align: left;">My career highlights include:</p>
-</span></h3><h3  style="font-size: 20px;text-align:center;line-height:30px;letter-spacing:0px;color: #ff4351;font-weight:inherit;margin-bottom:20px; margin-top:10px; " id="fancy-title-24" class="mk-fancy-title responsive-align-center simple-title center-align   "><span class="fancy-title-span pointed" >
-<ul>
-<li style="text-align: left;">Building a blog to nearly 1-million followers</li>
-<li style="text-align: left;">Defining the brand for one of North America’s largest planned real estate developments</li>
-<li style="text-align: left;">International acclaim for CryptoKitties, my latest project (<a href="http://www.bbc.com/news/technology-42237162">BBC</a>, <a href="https://www.bloomberg.com/news/articles/2017-12-04/cryptokitties-quickly-becomes-most-widely-used-ethereum-app">Bloomberg</a>, <a href="https://blogs.wsj.com/cio/2017/12/07/ethereum-network-copes-with-surge-of-activity-as-virtual-kitten-game-goes-viral/">Wall Street Journal</a>, <a href="https://www.youtube.com/watch?v=qk7gRljIKww&amp;feature=youtu.be">VICE</a>)</li>
-</ul>
-</span></h3><h3  style="font-size: 20px;text-align:center;line-height:30px;letter-spacing:0px;color: #ff4351;font-weight:inherit;margin-bottom:20px; margin-top:10px; " id="fancy-title-25" class="mk-fancy-title responsive-align-center simple-title center-align   "><span class="fancy-title-span pointed" >I&#8217;m the Director of Communications at <strong><a href="https://dapperlabs.com">Dapper Labs</a></strong> and co-creator of <a href="https://www.cryptokitties.co/"><strong>CryptoKitties</strong></a>.</span></h3><div class="clearboth"></div><div class="mk-shortcode mk-padding-shortcode " style="height:40px"></div><div class="clearboth"></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner "><div class="wpb_wrapper"></div></div></div></div><span id="icon-font-26" class="mk-font-icons mk-shortcode icon-align-center remove-frame "><a class="mk-smooth" href="#work-2" target="_self"><i style="margin:15px 4px; border-width:2px; " class="mk-theme-icon-bottom-bigger custom-font-icon mk-size-medium mk-pulse"></i></a></span>
-	</div></div><div class="clearboth"></div></div><div class="clearboth"></div><div data-istop="[] - [mk-shape-divider--stick-bottom]" id="mk-shape-divider-27" class="mk-shape-divider mk-shape-divider--stick diagonal-bottom-style small-size  mk-shape-divider--stick-bottom ">
-                <div class="shape__container">
-                    <div class="shape">
-            <svg width="100%" height="70px">
+                <div class="wpb_column vc_column_container vc_col-sm-8">
+                  <div class="vc_column-inner ">
+                    <div class="wpb_wrapper"><h3
+                            style="font-size: 36px;text-align:center;line-height:50px;letter-spacing:4px;color: #ff4351;font-weight:600;margin-bottom:20px; margin-top:10px; "
+                            id="fancy-title-21"
+                            class="mk-fancy-title responsive-align-center simple-title center-align   "><span
+                            class="fancy-title-span pointed">I&#8217;m a writer and consultant.</span></h3>
+                      <h3 style="font-size: 20px;text-align:center;line-height:30px;letter-spacing:0px;color: #ff4351;font-weight:inherit;margin-bottom:20px; margin-top:10px; "
+                          id="fancy-title-22"
+                          class="mk-fancy-title responsive-align-center simple-title center-align   "><span
+                              class="fancy-title-span pointed">
+                                    <p style="text-align: left;">I help clients with everything from ideation to content creation to full-scale strategy.</p>
+                                    </span></h3>
+                      <h3 style="font-size: 20px;text-align:center;line-height:30px;letter-spacing:0px;color: #ff4351;font-weight:inherit;margin-bottom:20px; margin-top:10px; "
+                          id="fancy-title-23"
+                          class="mk-fancy-title responsive-align-center simple-title center-align   "><span
+                              class="fancy-title-span pointed">
+                                    <p style="text-align: left;">My career highlights include:</p>
+                                    </span></h3>
+                      <h3 style="font-size: 20px;text-align:center;line-height:30px;letter-spacing:0px;color: #ff4351;font-weight:inherit;margin-bottom:20px; margin-top:10px; "
+                          id="fancy-title-24"
+                          class="mk-fancy-title responsive-align-center simple-title center-align   "><span
+                              class="fancy-title-span pointed">
+                                    <ul>
+                                    <li style="text-align: left;">Building a blog to nearly 1-million followers</li>
+                                    <li style="text-align: left;">Defining the brand for one of North America’s largest planned real estate developments</li>
+                                    <li style="text-align: left;">International acclaim for CryptoKitties, my latest project (<a
+                                            href="http://www.bbc.com/news/technology-42237162">BBC</a>, <a
+                                            href="https://www.bloomberg.com/news/articles/2017-12-04/cryptokitties-quickly-becomes-most-widely-used-ethereum-app">Bloomberg</a>, <a
+                                            href="https://blogs.wsj.com/cio/2017/12/07/ethereum-network-copes-with-surge-of-activity-as-virtual-kitten-game-goes-viral/">Wall Street Journal</a>, <a
+                                            href="https://www.youtube.com/watch?v=qk7gRljIKww&amp;feature=youtu.be">VICE</a>)</li>
+                                    </ul>
+                                    </span></h3>
+                      <h3 style="font-size: 20px;text-align:center;line-height:30px;letter-spacing:0px;color: #ff4351;font-weight:inherit;margin-bottom:20px; margin-top:10px; "
+                          id="fancy-title-25"
+                          class="mk-fancy-title responsive-align-center simple-title center-align   "><span
+                              class="fancy-title-span pointed">I&#8217;m the Director of Communications at <strong><a
+                              href="https://dapperlabs.com">Dapper Labs</a></strong> and co-creator of <a
+                              href="https://www.cryptokitties.co/"><strong>CryptoKitties</strong></a>.</span></h3>
+                      <div class="clearboth"></div>
+                      <div class="mk-shortcode mk-padding-shortcode " style="height:40px"></div>
+                      <div class="clearboth"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="wpb_column vc_column_container vc_col-sm-2">
+                  <div class="vc_column-inner ">
+                    <div class="wpb_wrapper"></div>
+                  </div>
+                </div>
+              </div>
+              <span id="icon-font-26" class="mk-font-icons mk-shortcode icon-align-center remove-frame "><a
+                      class="mk-smooth" href="#work-2" target="_self"><i style="margin:15px 4px; border-width:2px; "
+                                                                         class="mk-theme-icon-bottom-bigger custom-font-icon mk-size-medium mk-pulse"></i></a></span>
+            </div>
+          </div>
+          <div class="clearboth"></div>
+        </div>
+        <div class="clearboth"></div>
+        <div data-istop="[] - [mk-shape-divider--stick-bottom]" id="mk-shape-divider-27"
+             class="mk-shape-divider mk-shape-divider--stick diagonal-bottom-style small-size  mk-shape-divider--stick-bottom ">
+          <div class="shape__container">
+            <div class="shape">
+              <svg width="100%" height="70px">
                 <defs>
-                    <pattern id="shapeDividerPattern-27" preserveAspectRatio="none" style="background-repeat: none;" patternUnits="userSpaceOnUse" x="0" y="0" width="100%" height="700px" viewBox="0 0 100 700" >
-                        <polygon fill="#ff4351" points="100,70 100,0 0,70 "/>
-                    </pattern>
+                  <pattern id="shapeDividerPattern-27" preserveAspectRatio="none" style="background-repeat: none;"
+                           patternUnits="userSpaceOnUse" x="0" y="0" width="100%" height="700px" viewBox="0 0 100 700">
+                    <polygon fill="#ff4351" points="100,70 100,0 0,70 "/>
+                  </pattern>
                 </defs>
 
                 <!-- Background -->
-                <rect x="0" y="0" width="100%" height="70px" fill="url(#shapeDividerPattern-27)" />
-            </svg>
-        
-                    </div>
+                <rect x="0" y="0" width="100%" height="70px" fill="url(#shapeDividerPattern-27)"/>
+              </svg>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mk-main-wrapper-holder">
+        <div class="theme-page-wrapper full-layout mk-grid vc_row-fluid no-padding">
+          <div class="theme-content no-padding">
+            <div class="clearboth"></div>
+          </div>
+        </div>
+      </div>
+      <div id="work-2" data-intro-effect="false"
+           class="page-section-28  expandable-false fullwidth-false section-expandable-false full-height-false  mk-video-holder mk-page-section parallax-false  "
+           data-direction="vertical">
+        <div class="bg-layer clip">
+          <div class="mk-video-color-mask"></div>
+          <div class="scroll-layer " style="" css-attach="fixed" data-attach="scroll"></div>
+        </div>
+        <div class="mk-grid vc_row-fluid page-section-content expandable-false">
+          <div class="mk-padding-wrapper">
+            <div style="" class="vc_col-sm-12 wpb_column column_container ">
+              <div class="clearboth"></div>
+              <div class="mk-shortcode mk-padding-shortcode " style="height:50px"></div>
+              <div class="clearboth"></div>
+              <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                <div class="wpb_column vc_column_container vc_col-sm-2">
+                  <div class="vc_column-inner ">
+                    <div class="wpb_wrapper"></div>
+                  </div>
                 </div>
-            </div></div><div class="mk-main-wrapper-holder"><div class="theme-page-wrapper full-layout mk-grid vc_row-fluid no-padding"><div class="theme-content no-padding"><div class="clearboth"></div></div></div></div><div id="work-2"   data-intro-effect="false" class="page-section-28  expandable-false fullwidth-false section-expandable-false full-height-false  mk-video-holder mk-page-section parallax-false  " data-direction="vertical"><div class="bg-layer clip"><div  class="mk-video-color-mask"></div><div class="scroll-layer " style=""  css-attach="fixed" data-attach="scroll"></div></div><div class="mk-grid vc_row-fluid page-section-content expandable-false"><div class="mk-padding-wrapper">
-	<div style="" class="vc_col-sm-12 wpb_column column_container ">
-			<div class="clearboth"></div><div class="mk-shortcode mk-padding-shortcode " style="height:50px"></div><div class="clearboth"></div><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner "><div class="wpb_wrapper"></div></div></div><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner "><div class="wpb_wrapper"><h3  style="font-size: 36px;text-align:center;line-height:50px;letter-spacing:4px;color: #ffffff;font-weight:600;margin-bottom:20px; margin-top:10px; " id="fancy-title-29" class="mk-fancy-title responsive-align-center simple-title center-align   "><span class="fancy-title-span pointed" >I grow ideas and audiences.</span></h3><h3  style="font-size: 20px;text-align:center;line-height:30px;letter-spacing:0px;color: #ffffff;font-weight:inherit;margin-bottom:20px; margin-top:10px; " id="fancy-title-30" class="mk-fancy-title responsive-align-center simple-title center-align   "><span class="fancy-title-span pointed" >
-<p style="text-align: left;">Most of my work is related to helping creative communications succeed. The biggest aspect of that is helping to bridge “creativity” and “business.” What that means varies client to client, but it all comes down to defining <em>why</em> something is being pursued, <em>who</em> the audience for that thing is, and <em>how</em> it’s going to get done.</p>
-</span></h3><h3  style="font-size: 20px;text-align:center;line-height:30px;letter-spacing:0px;color: #ffffff;font-weight:inherit;margin-bottom:20px; margin-top:10px; " id="fancy-title-31" class="mk-fancy-title responsive-align-center simple-title center-align   "><span class="fancy-title-span pointed" >
-<p style="text-align: left;">Sometimes, a business thinks a website or social media campaign will solve problems tied to a deeper marketing issue. I help get to the bottom of obstacles so I can provide worthwhile solutions.</p>
-</span></h3><h3  style="font-size: 20px;text-align:center;line-height:30px;letter-spacing:0px;color: #ffffff;font-weight:inherit;margin-bottom:20px; margin-top:10px; " id="fancy-title-32" class="mk-fancy-title responsive-align-center simple-title center-align   "><span class="fancy-title-span pointed" >
-<p style="text-align: left;">Simply put, I help messages meet their audience in a meaningful way.</p>
-</span></h3></div></div></div><div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner "><div class="wpb_wrapper"></div></div></div></div><div class="clearboth"></div><div class="mk-shortcode mk-padding-shortcode " style="height:40px"></div><div class="clearboth"></div><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner "><div class="wpb_wrapper"></div></div></div><div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner "><div class="wpb_wrapper"><div id="mk-box-text-33" class="mk-box-text custom-skin medium "><i style="font-size:64px" class="mk-flaticon-increasing5"></i><span class="icon-txt-default" style="font-weight:inherit;">Marketing</span><span class="icon-txt-hover" style="font-size:16px; line-height:18px; font-weight:inherit;">How you reach your audience</span></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner "><div class="wpb_wrapper"><div id="mk-box-text-34" class="mk-box-text custom-skin medium "><i style="font-size:64px" class="mk-flaticon-kings"></i><span class="icon-txt-default" style="font-weight:inherit;">CONTENT</span><span class="icon-txt-hover" style="font-size:16px; line-height:18px; font-weight:inherit;">Why your audience listens</span></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner "><div class="wpb_wrapper"><div id="mk-box-text-35" class="mk-box-text custom-skin medium "><i style="font-size:64px" class="mk-theme-icon-tag"></i><span class="icon-txt-default" style="font-weight:inherit;">BRANDING</span><span class="icon-txt-hover" style="font-size:16px; line-height:18px; font-weight:inherit;">How your audience perceives you</span></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner "><div class="wpb_wrapper"><div id="mk-box-text-36" class="mk-box-text custom-skin medium "><i style="font-size:64px" class="mk-icon-comment-o"></i><span class="icon-txt-default" style="font-weight:inherit;">COMMUNICATIONS</span><span class="icon-txt-hover" style="font-size:16px; line-height:18px; font-weight:inherit;">How you speak to your audience</span></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner "><div class="wpb_wrapper"></div></div></div></div><div class="clearboth"></div><div class="mk-shortcode mk-padding-shortcode " style="height:30px"></div><div class="clearboth"></div><span id="icon-font-37" class="mk-font-icons mk-shortcode icon-align-center remove-frame "><a class="mk-smooth" href="#work-3" target="_self"><i style="margin:15px 4px; border-width:2px; " class="mk-theme-icon-bottom-bigger custom-font-icon mk-size-medium mk-pulse"></i></a></span>
-	</div></div><div class="clearboth"></div></div><div class="clearboth"></div><div data-istop="[] - [mk-shape-divider--stick-bottom]" id="mk-shape-divider-38" class="mk-shape-divider mk-shape-divider--stick diagonal-bottom-style small-size  mk-shape-divider--stick-bottom ">
-                <div class="shape__container">
-                    <div class="shape">
-            <svg width="100%" height="70px">
+                <div class="wpb_column vc_column_container vc_col-sm-8">
+                  <div class="vc_column-inner ">
+                    <div class="wpb_wrapper"><h3
+                            style="font-size: 36px;text-align:center;line-height:50px;letter-spacing:4px;color: #ffffff;font-weight:600;margin-bottom:20px; margin-top:10px; "
+                            id="fancy-title-29"
+                            class="mk-fancy-title responsive-align-center simple-title center-align   "><span
+                            class="fancy-title-span pointed">I grow ideas and audiences.</span></h3>
+                      <h3 style="font-size: 20px;text-align:center;line-height:30px;letter-spacing:0px;color: #ffffff;font-weight:inherit;margin-bottom:20px; margin-top:10px; "
+                          id="fancy-title-30"
+                          class="mk-fancy-title responsive-align-center simple-title center-align   "><span
+                              class="fancy-title-span pointed">
+                                    <p style="text-align: left;">Most of my work is related to helping creative communications succeed. The biggest aspect of that is helping to bridge “creativity” and “business.” What that means varies client to client, but it all comes down to defining <em>why</em> something is being pursued, <em>who</em> the audience for that thing is, and <em>how</em> it’s going to get done.</p>
+                                    </span></h3>
+                      <h3 style="font-size: 20px;text-align:center;line-height:30px;letter-spacing:0px;color: #ffffff;font-weight:inherit;margin-bottom:20px; margin-top:10px; "
+                          id="fancy-title-31"
+                          class="mk-fancy-title responsive-align-center simple-title center-align   "><span
+                              class="fancy-title-span pointed">
+                                    <p style="text-align: left;">Sometimes, a business thinks a website or social media campaign will solve problems tied to a deeper marketing issue. I help get to the bottom of obstacles so I can provide worthwhile solutions.</p>
+                                    </span></h3>
+                      <h3 style="font-size: 20px;text-align:center;line-height:30px;letter-spacing:0px;color: #ffffff;font-weight:inherit;margin-bottom:20px; margin-top:10px; "
+                          id="fancy-title-32"
+                          class="mk-fancy-title responsive-align-center simple-title center-align   "><span
+                              class="fancy-title-span pointed">
+                                    <p style="text-align: left;">Simply put, I help messages meet their audience in a meaningful way.</p>
+                                    </span></h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="wpb_column vc_column_container vc_col-sm-2">
+                  <div class="vc_column-inner ">
+                    <div class="wpb_wrapper"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="clearboth"></div>
+              <div class="mk-shortcode mk-padding-shortcode " style="height:40px"></div>
+              <div class="clearboth"></div>
+              <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                <div class="wpb_column vc_column_container vc_col-sm-2">
+                  <div class="vc_column-inner ">
+                    <div class="wpb_wrapper"></div>
+                  </div>
+                </div>
+                <div class="wpb_column vc_column_container vc_col-sm-2">
+                  <div class="vc_column-inner ">
+                    <div class="wpb_wrapper">
+                      <div id="mk-box-text-33" class="mk-box-text custom-skin medium "><i style="font-size:64px"
+                                                                                          class="mk-flaticon-increasing5"></i><span
+                              class="icon-txt-default" style="font-weight:inherit;">Marketing</span><span
+                              class="icon-txt-hover" style="font-size:16px; line-height:18px; font-weight:inherit;">How you reach your audience</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="wpb_column vc_column_container vc_col-sm-2">
+                  <div class="vc_column-inner ">
+                    <div class="wpb_wrapper">
+                      <div id="mk-box-text-34" class="mk-box-text custom-skin medium "><i style="font-size:64px"
+                                                                                          class="mk-flaticon-kings"></i><span
+                              class="icon-txt-default" style="font-weight:inherit;">CONTENT</span><span
+                              class="icon-txt-hover" style="font-size:16px; line-height:18px; font-weight:inherit;">Why your audience listens</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="wpb_column vc_column_container vc_col-sm-2">
+                  <div class="vc_column-inner ">
+                    <div class="wpb_wrapper">
+                      <div id="mk-box-text-35" class="mk-box-text custom-skin medium "><i style="font-size:64px"
+                                                                                          class="mk-theme-icon-tag"></i><span
+                              class="icon-txt-default" style="font-weight:inherit;">BRANDING</span><span
+                              class="icon-txt-hover" style="font-size:16px; line-height:18px; font-weight:inherit;">How your audience perceives you</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="wpb_column vc_column_container vc_col-sm-2">
+                  <div class="vc_column-inner ">
+                    <div class="wpb_wrapper">
+                      <div id="mk-box-text-36" class="mk-box-text custom-skin medium "><i style="font-size:64px"
+                                                                                          class="mk-icon-comment-o"></i><span
+                              class="icon-txt-default" style="font-weight:inherit;">COMMUNICATIONS</span><span
+                              class="icon-txt-hover" style="font-size:16px; line-height:18px; font-weight:inherit;">How you speak to your audience</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="wpb_column vc_column_container vc_col-sm-2">
+                  <div class="vc_column-inner ">
+                    <div class="wpb_wrapper"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="clearboth"></div>
+              <div class="mk-shortcode mk-padding-shortcode " style="height:30px"></div>
+              <div class="clearboth"></div>
+              <span id="icon-font-37" class="mk-font-icons mk-shortcode icon-align-center remove-frame "><a
+                      class="mk-smooth" href="#work-3" target="_self"><i style="margin:15px 4px; border-width:2px; "
+                                                                         class="mk-theme-icon-bottom-bigger custom-font-icon mk-size-medium mk-pulse"></i></a></span>
+            </div>
+          </div>
+          <div class="clearboth"></div>
+        </div>
+        <div class="clearboth"></div>
+        <div data-istop="[] - [mk-shape-divider--stick-bottom]" id="mk-shape-divider-38"
+             class="mk-shape-divider mk-shape-divider--stick diagonal-bottom-style small-size  mk-shape-divider--stick-bottom ">
+          <div class="shape__container">
+            <div class="shape">
+              <svg width="100%" height="70px">
                 <defs>
-                    <pattern id="shapeDividerPattern-38" preserveAspectRatio="none" style="background-repeat: none;" patternUnits="userSpaceOnUse" x="0" y="0" width="100%" height="700px" viewBox="0 0 100 700" >
-                        <polygon fill="#ffffff" points="100,70 100,0 0,70 "/>
-                    </pattern>
+                  <pattern id="shapeDividerPattern-38" preserveAspectRatio="none" style="background-repeat: none;"
+                           patternUnits="userSpaceOnUse" x="0" y="0" width="100%" height="700px" viewBox="0 0 100 700">
+                    <polygon fill="#ffffff" points="100,70 100,0 0,70 "/>
+                  </pattern>
                 </defs>
 
                 <!-- Background -->
-                <rect x="0" y="0" width="100%" height="70px" fill="url(#shapeDividerPattern-38)" />
-            </svg>
-        
-                    </div>
+                <rect x="0" y="0" width="100%" height="70px" fill="url(#shapeDividerPattern-38)"/>
+              </svg>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mk-main-wrapper-holder">
+        <div class="theme-page-wrapper full-layout mk-grid vc_row-fluid no-padding">
+          <div class="theme-content no-padding">
+            <div class="clearboth"></div>
+          </div>
+        </div>
+      </div>
+      <div id="work-3" data-intro-effect="false"
+           class="page-section-39  expandable-false fullwidth-true section-expandable-false full-height-false  mk-video-holder mk-page-section parallax-false  "
+           data-direction="vertical">
+        <div class="bg-layer clip">
+          <div class="mk-video-color-mask"></div>
+          <div class="scroll-layer " style="" css-attach="scroll" data-attach="scroll"></div>
+        </div>
+        <div class="page-section-fullwidth vc_row-fluid page-section-content expandable-false">
+          <div class="mk-padding-wrapper">
+            <div style="" class="vc_col-sm-12 wpb_column column_container ">
+              <div class="clearboth"></div>
+              <div class="mk-shortcode mk-padding-shortcode " style="height:50px"></div>
+              <div class="clearboth"></div>
+              <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                <div class="wpb_column vc_column_container vc_col-sm-2">
+                  <div class="vc_column-inner ">
+                    <div class="wpb_wrapper"></div>
+                  </div>
                 </div>
-            </div></div><div class="mk-main-wrapper-holder"><div class="theme-page-wrapper full-layout mk-grid vc_row-fluid no-padding"><div class="theme-content no-padding"><div class="clearboth"></div></div></div></div><div id="work-3"   data-intro-effect="false" class="page-section-39  expandable-false fullwidth-true section-expandable-false full-height-false  mk-video-holder mk-page-section parallax-false  " data-direction="vertical"><div class="bg-layer clip"><div  class="mk-video-color-mask"></div><div class="scroll-layer " style=""  css-attach="scroll" data-attach="scroll"></div></div><div class="page-section-fullwidth vc_row-fluid page-section-content expandable-false"><div class="mk-padding-wrapper">
-	<div style="" class="vc_col-sm-12 wpb_column column_container ">
-			<div class="clearboth"></div><div class="mk-shortcode mk-padding-shortcode " style="height:50px"></div><div class="clearboth"></div><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner "><div class="wpb_wrapper"></div></div></div><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner "><div class="wpb_wrapper"><h3  style="font-size: 36px;text-align:center;line-height:50px;letter-spacing:4px;color: #ff4351;font-weight:600;margin-bottom:20px; margin-top:10px; " id="fancy-title-40" class="mk-fancy-title responsive-align-center simple-title center-align   "><span class="fancy-title-span pointed" >I help build brands and businesses.</span></h3><h3  style="font-size: 20px;text-align:center;line-height:30px;letter-spacing:0px;color: #ff4351;font-weight:inherit;margin-bottom:20px; margin-top:10px; " id="fancy-title-41" class="mk-fancy-title responsive-align-center simple-title center-align   "><span class="fancy-title-span pointed" >I work with creative professionals, established businesses, promising start-ups, and world-class artists.</span></h3><div class="portfolio-grid  "><div class="loop-main-wrapper"><div class="portfolio-loader"><div class="mk-loader"></div></div><section id="mk-portfolio-loop-42" data-uniqid="1431370924-5550fcac579ae" data-style="grid" class="mk-portfolio-container isotop-enabled mk-theme-loop mk-portfolio-grid load-button-style show-category-true ">
-<article id="portfolio-19578" class="grid-portfolio-item grid-1431370924-5550fcac579ae portfolio-ajax-item mk-portfolio-item classic-hover mk-isotop-item one-column projects"><div class="item-holder"><div class="featured-image " ><img alt="Clients From Hell blog" class="item-featured-image" width="1125" height="400" title="Clients From Hell blog" src="http://brycebladon.com/wp-content/uploads/bfi_thumb/CFH_BLOG-featured-image-ltv7mp8vt6ea1itweaw760m70yssh88fz3g9620r1c-m91axe9d2ru7psp5v0nje7kacxrp4ba4bypdl0c734.jpg" itemprop="image" /><div class="border-tb masonry-border"></div><div class="border-tr masonry-border"></div><div class="border-bt masonry-border"></div><div class="border-bl masonry-border"></div><div class="hover-overlay"></div><div class="portfolio-meta"><div class="the-title"><a href="http://brycebladon.com/portfolio-posts/clients-from-hell-blog/">Clients From Hell blog</a></div><div class="clearboth"></div><div class="portfolio-cats">Projects</div><a class="project-load portfolio-permalink" data-post-id="19578" href="http://brycebladon.com/portfolio-posts/clients-from-hell-blog/"><i class="mk-theme-icon-next-big"></i></a></div></div></div></article></section><div class="clearboth"></div>
+                <div class="wpb_column vc_column_container vc_col-sm-8">
+                  <div class="vc_column-inner ">
+                    <div class="wpb_wrapper"><h3
+                            style="font-size: 36px;text-align:center;line-height:50px;letter-spacing:4px;color: #ff4351;font-weight:600;margin-bottom:20px; margin-top:10px; "
+                            id="fancy-title-40"
+                            class="mk-fancy-title responsive-align-center simple-title center-align   "><span
+                            class="fancy-title-span pointed">I help build brands and businesses.</span></h3>
+                      <h3 style="font-size: 20px;text-align:center;line-height:30px;letter-spacing:0px;color: #ff4351;font-weight:inherit;margin-bottom:20px; margin-top:10px; "
+                          id="fancy-title-41"
+                          class="mk-fancy-title responsive-align-center simple-title center-align   "><span
+                              class="fancy-title-span pointed">I work with creative professionals, established businesses, promising start-ups, and world-class artists.</span>
+                      </h3>
+                      <div class="portfolio-grid  ">
+                        <div class="loop-main-wrapper">
+                          <div class="portfolio-loader">
+                            <div class="mk-loader"></div>
+                          </div>
+                          <section id="mk-portfolio-loop-42" data-uniqid="1431370924-5550fcac579ae" data-style="grid"
+                                   class="mk-portfolio-container isotop-enabled mk-theme-loop mk-portfolio-grid load-button-style show-category-true ">
+                            <article id="portfolio-19578"
+                                     class="grid-portfolio-item grid-1431370924-5550fcac579ae portfolio-ajax-item mk-portfolio-item classic-hover mk-isotop-item one-column projects">
+                              <div class="item-holder">
+                                <div class="featured-image "><img alt="Clients From Hell blog"
+                                                                  class="item-featured-image" width="1125" height="400"
+                                                                  title="Clients From Hell blog"
+                                                                  src="http://brycebladon.com/wp-content/uploads/bfi_thumb/CFH_BLOG-featured-image-ltv7mp8vt6ea1itweaw760m70yssh88fz3g9620r1c-m91axe9d2ru7psp5v0nje7kacxrp4ba4bypdl0c734.jpg"
+                                                                  itemprop="image"/>
+                                  <div class="border-tb masonry-border"></div>
+                                  <div class="border-tr masonry-border"></div>
+                                  <div class="border-bt masonry-border"></div>
+                                  <div class="border-bl masonry-border"></div>
+                                  <div class="hover-overlay"></div>
+                                  <div class="portfolio-meta">
+                                    <div class="the-title"><a
+                                            href="http://brycebladon.com/portfolio-posts/clients-from-hell-blog/">Clients
+                                      From Hell blog</a></div>
+                                    <div class="clearboth"></div>
+                                    <div class="portfolio-cats">Projects</div>
+                                    <a class="project-load portfolio-permalink" data-post-id="19578"
+                                       href="http://brycebladon.com/portfolio-posts/clients-from-hell-blog/"><i
+                                            class="mk-theme-icon-next-big"></i></a></div>
+                                </div>
+                              </div>
+                            </article>
+                          </section>
+                          <div class="clearboth"></div>
 
-<a class="mk-loadmore-button" style="display:none;" href="#"><i class="mk-icon-circle-o-notch"></i><i class="mk-icon-chevron-down"></i></a></div></div><div class="clearboth"></div><div class="mk-shortcode mk-padding-shortcode " style="height:20px"></div><div class="clearboth"></div><div id="divider-43" style="padding: 10px 0px 20px 0px;" class="mk-divider divider_full_width divider-single  "><div style="border-color:#ff4351;" class="divider-inner"></div></div><div class="clearboth"></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner "><div class="wpb_wrapper"></div></div></div></div><div class="clearboth"></div><div class="mk-shortcode mk-padding-shortcode " style="height:40px"></div><div class="clearboth"></div><div id="clients-shortcode-44" class="mk-clients-shortcode  mk-swiper-container mk-swiper-slider bg-cover-true " data-loop="false" data-freeModeFluid="true" data-slidesPerView="auto" data-pagination="false" data-freeMode="true" data-mousewheelControl="false" data-direction="horizontal" data-slideshowSpeed="4000" data-animationSpeed="600" data-directionNav="false" ><ul class="mk-swiper-wrapper" ><li class="client-item swiper-slide" onClick="return true"><div class="client-item-wrapper" style="border-color:#ffffff;"><a target="_blank" href="https://www.axiomzen.co/"><div title="Axiom Zen" class="client-logo" style="background-image:url(http://brycebladon.com/wp-content/uploads/2017/04/Axiom-Zen.png); height:150px;width:150px;180background-color:#ffffff;"></div><div class="clients-info"><div class="clients-info-holder" style="height:150px;"><span class="client-company">Axiom Zen</span><div id="divider-45" style="padding: 10px 0px 0px 0px;" class="mk-divider divider_custom_width divider-single  "><div style="border-color:rgba(255,255,255,0.4);" class="divider-inner"></div></div><div class="clearboth"></div></div></div></a></div></li><li class="client-item swiper-slide" onClick="return true"><div class="client-item-wrapper" style="border-color:#ffffff;"><a target="_blank" href="http://www.metalabdesign.com/"><div title="Metalab" class="client-logo" style="background-image:url(http://brycebladon.com/wp-content/uploads/2014/06/medium.png); height:150px;width:150px;180background-color:#ffffff;"></div><div class="clients-info"><div class="clients-info-holder" style="height:150px;"><span class="client-company">Metalab</span><div id="divider-46" style="padding: 10px 0px 0px 0px;" class="mk-divider divider_custom_width divider-single  "><div style="border-color:rgba(255,255,255,0.4);" class="divider-inner"></div></div><div class="clearboth"></div></div></div></a></div></li><li class="client-item swiper-slide" onClick="return true"><div class="client-item-wrapper" style="border-color:#ffffff;"><a target="_blank" href="https://routific.com/"><div title="Routific" class="client-logo" style="background-image:url(http://brycebladon.com/wp-content/uploads/2017/04/Routific.jpg); height:150px;width:150px;180background-color:#ffffff;"></div><div class="clients-info"><div class="clients-info-holder" style="height:150px;"><span class="client-company">Routific</span><div id="divider-47" style="padding: 10px 0px 0px 0px;" class="mk-divider divider_custom_width divider-single  "><div style="border-color:rgba(255,255,255,0.4);" class="divider-inner"></div></div><div class="clearboth"></div></div></div></a></div></li><li class="client-item swiper-slide" onClick="return true"><div class="client-item-wrapper" style="border-color:#ffffff;"><a target="_blank" href="http://www.hammerandtusk.com/"><div title="Hammer & Tusk" class="client-logo" style="background-image:url(http://brycebladon.com/wp-content/uploads/2017/04/Hammer-and-Tusk.png); height:150px;width:150px;180background-color:#ffffff;"></div><div class="clients-info"><div class="clients-info-holder" style="height:150px;"><span class="client-company">Hammer & Tusk</span><div id="divider-48" style="padding: 10px 0px 0px 0px;" class="mk-divider divider_custom_width divider-single  "><div style="border-color:rgba(255,255,255,0.4);" class="divider-inner"></div></div><div class="clearboth"></div></div></div></a></div></li><li class="client-item swiper-slide" onClick="return true"><div class="client-item-wrapper" style="border-color:#ffffff;"><a target="_blank" href="https://www.zenhub.com/"><div title="ZenHub" class="client-logo" style="background-image:url(http://brycebladon.com/wp-content/uploads/2017/04/ZenHub.jpg); height:150px;width:150px;180background-color:#ffffff;"></div><div class="clients-info"><div class="clients-info-holder" style="height:150px;"><span class="client-company">ZenHub</span><div id="divider-49" style="padding: 10px 0px 0px 0px;" class="mk-divider divider_custom_width divider-single  "><div style="border-color:rgba(255,255,255,0.4);" class="divider-inner"></div></div><div class="clearboth"></div></div></div></a></div></li><li class="client-item swiper-slide" onClick="return true"><div class="client-item-wrapper" style="border-color:#ffffff;"><a target="_blank" href="https://timeline.com/"><div title="Timeline" class="client-logo" style="background-image:url(http://brycebladon.com/wp-content/uploads/2017/04/Timeline.png); height:150px;width:150px;180background-color:#ffffff;"></div><div class="clients-info"><div class="clients-info-holder" style="height:150px;"><span class="client-company">Timeline</span><div id="divider-50" style="padding: 10px 0px 0px 0px;" class="mk-divider divider_custom_width divider-single  "><div style="border-color:rgba(255,255,255,0.4);" class="divider-inner"></div></div><div class="clearboth"></div></div></div></a></div></li><li class="client-item swiper-slide" onClick="return true"><div class="client-item-wrapper" style="border-color:#ffffff;"><a target="_blank" href="https://www.freelancersunion.org/"><div title="Freelancers Union" class="client-logo" style="background-image:url(http://brycebladon.com/wp-content/uploads/2014/06/freelancers-union.png); height:150px;width:150px;180background-color:#ffffff;"></div><div class="clients-info"><div class="clients-info-holder" style="height:150px;"><span class="client-company">Freelancers Union</span><div id="divider-51" style="padding: 10px 0px 0px 0px;" class="mk-divider divider_custom_width divider-single  "><div style="border-color:rgba(255,255,255,0.4);" class="divider-inner"></div></div><div class="clearboth"></div></div></div></a></div></li><li class="client-item swiper-slide" onClick="return true"><div class="client-item-wrapper" style="border-color:#ffffff;"><a target="_blank" href="http://www.creativebloq.com/net-magazine"><div title=".net Magazine" class="client-logo" style="background-image:url(http://brycebladon.com/wp-content/uploads/2014/06/net-magazine.png); height:150px;width:150px;180background-color:#ffffff;"></div><div class="clients-info"><div class="clients-info-holder" style="height:150px;"><span class="client-company">.net Magazine</span><div id="divider-52" style="padding: 10px 0px 0px 0px;" class="mk-divider divider_custom_width divider-single  "><div style="border-color:rgba(255,255,255,0.4);" class="divider-inner"></div></div><div class="clearboth"></div></div></div></a></div></li><li class="client-item swiper-slide" onClick="return true"><div class="client-item-wrapper" style="border-color:#ffffff;"><a target="_blank" href="http://www.nexencnoocltd.com/"><div title="Nexen Inc. " class="client-logo" style="background-image:url(http://brycebladon.com/wp-content/uploads/2014/06/nexen-square.png); height:150px;width:150px;180background-color:#ffffff;"></div><div class="clients-info"><div class="clients-info-holder" style="height:150px;"><span class="client-company">Nexen Inc. </span><div id="divider-53" style="padding: 10px 0px 0px 0px;" class="mk-divider divider_custom_width divider-single  "><div style="border-color:rgba(255,255,255,0.4);" class="divider-inner"></div></div><div class="clearboth"></div></div></div></a></div></li><li class="client-item swiper-slide" onClick="return true"><div class="client-item-wrapper" style="border-color:#ffffff;"><a target="_blank" href="http://www.nrcan.gc.ca/home"><div title="Natural Resources Canada" class="client-logo" style="background-image:url(http://brycebladon.com/wp-content/uploads/2014/06/NRCan-e1403225148766.jpeg); height:150px;width:150px;180background-color:#ffffff;"></div><div class="clients-info"><div class="clients-info-holder" style="height:150px;"><span class="client-company">Natural Resources Canada</span><div id="divider-54" style="padding: 10px 0px 0px 0px;" class="mk-divider divider_custom_width divider-single  "><div style="border-color:rgba(255,255,255,0.4);" class="divider-inner"></div></div><div class="clearboth"></div></div></div></a></div></li><li class="client-item swiper-slide" onClick="return true"><div class="client-item-wrapper" style="border-color:#ffffff;"><a target="_blank" href="https://www.pixelunion.net/"><div title="Pixel Union" class="client-logo" style="background-image:url(http://brycebladon.com/wp-content/uploads/2014/06/pixel-union-e1403223164152.jpg); height:150px;width:150px;180background-color:#ffffff;"></div><div class="clients-info"><div class="clients-info-holder" style="height:150px;"><span class="client-company">Pixel Union</span><div id="divider-55" style="padding: 10px 0px 0px 0px;" class="mk-divider divider_custom_width divider-single  "><div style="border-color:rgba(255,255,255,0.4);" class="divider-inner"></div></div><div class="clearboth"></div></div></div></a></div></li><li class="client-item swiper-slide" onClick="return true"><div class="client-item-wrapper" style="border-color:#ffffff;"><a target="_blank" href="http://www.viff.org/"><div title="Vancouver International Film Fest" class="client-logo" style="background-image:url(http://brycebladon.com/wp-content/uploads/2014/08/viff.jpg); height:150px;width:150px;180background-color:#ffffff;"></div><div class="clients-info"><div class="clients-info-holder" style="height:150px;"><span class="client-company">Vancouver International Film Fest</span><div id="divider-56" style="padding: 10px 0px 0px 0px;" class="mk-divider divider_custom_width divider-single  "><div style="border-color:rgba(255,255,255,0.4);" class="divider-inner"></div></div><div class="clearboth"></div></div></div></a></div></li><li class="client-item swiper-slide" onClick="return true"><div class="client-item-wrapper" style="border-color:#ffffff;"><a target="_blank" href="http://www.uvic.ca/"><div title="University of Victoria" class="client-logo" style="background-image:url(http://brycebladon.com/wp-content/uploads/2014/06/university-of-victoria_logo-converted.gif); height:150px;width:150px;180background-color:#ffffff;"></div><div class="clients-info"><div class="clients-info-holder" style="height:150px;"><span class="client-company">University of Victoria</span><div id="divider-57" style="padding: 10px 0px 0px 0px;" class="mk-divider divider_custom_width divider-single  "><div style="border-color:rgba(255,255,255,0.4);" class="divider-inner"></div></div><div class="clearboth"></div></div></div></a></div></li><li class="client-item swiper-slide" onClick="return true"><div class="client-item-wrapper" style="border-color:#ffffff;"><a target="_blank" href="http://vancouverweekly.com/"><div title="Vancouver Weekly" class="client-logo" style="background-image:url(http://brycebladon.com/wp-content/uploads/2014/06/vancouver-weekly-e1403223495908.png); height:150px;width:150px;180background-color:#ffffff;"></div><div class="clients-info"><div class="clients-info-holder" style="height:150px;"><span class="client-company">Vancouver Weekly</span><div id="divider-58" style="padding: 10px 0px 0px 0px;" class="mk-divider divider_custom_width divider-single  "><div style="border-color:rgba(255,255,255,0.4);" class="divider-inner"></div></div><div class="clearboth"></div></div></div></a></div></li><li class="client-item swiper-slide" onClick="return true"><div class="client-item-wrapper" style="border-color:#ffffff;"><a target="_blank" href="http://www.fearlessphotographers.com/"><div title="Fearless Photographers" class="client-logo" style="background-image:url(http://brycebladon.com/wp-content/uploads/2014/07/Fearless-Logo.jpg); height:150px;width:150px;180background-color:#ffffff;"></div><div class="clients-info"><div class="clients-info-holder" style="height:150px;"><span class="client-company">Fearless Photographers</span><div id="divider-59" style="padding: 10px 0px 0px 0px;" class="mk-divider divider_custom_width divider-single  "><div style="border-color:rgba(255,255,255,0.4);" class="divider-inner"></div></div><div class="clearboth"></div></div></div></a></div></li><li class="client-item swiper-slide" onClick="return true"><div class="client-item-wrapper" style="border-color:#ffffff;"><a target="_blank" href="http://www.kanoapps.com/"><div title="KANO/APPS" class="client-logo" style="background-image:url(http://brycebladon.com/wp-content/uploads/2014/06/kano-apps.jpg); height:150px;width:150px;180background-color:#ffffff;"></div><div class="clients-info"><div class="clients-info-holder" style="height:150px;"><span class="client-company">KANO/APPS</span><div id="divider-60" style="padding: 10px 0px 0px 0px;" class="mk-divider divider_custom_width divider-single  "><div style="border-color:rgba(255,255,255,0.4);" class="divider-inner"></div></div><div class="clearboth"></div></div></div></a></div></li></ul><div class="clearboth"></div></div><div class="clearboth"></div><div class="mk-shortcode mk-padding-shortcode " style="height:60px"></div><div class="clearboth"></div><span id="icon-font-61" class="mk-font-icons mk-shortcode icon-align-center remove-frame "><a class="mk-smooth" href="#contact-1" target="_self"><i style="margin:15px 4px; border-width:2px; " class="mk-theme-icon-bottom-bigger custom-font-icon mk-size-medium mk-pulse"></i></a></span>
-	</div></div><div class="clearboth"></div></div><div class="clearboth"></div></div><div class="mk-main-wrapper-holder"><div class="theme-page-wrapper full-layout mk-grid vc_row-fluid no-padding"><div class="theme-content no-padding"><div class="clearboth"></div></div></div></div><div id="contact-1"   data-intro-effect="false" class="page-section-62  expandable-false fullwidth-false section-expandable-false full-height-false  mk-video-holder mk-page-section parallax-false  " data-direction="vertical"><div class="bg-layer clip"><div  class="mk-video-color-mask"></div><div class="scroll-layer " style=""  css-attach="fixed" data-attach="scroll"></div></div><div class="mk-grid vc_row-fluid page-section-content expandable-false"><div class="mk-padding-wrapper">
-	<div style="" class="vc_col-sm-12 wpb_column column_container ">
-			<div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper"></div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner "><div class="wpb_wrapper"><h3  style="font-size: 36px;text-align:center;line-height:50px;letter-spacing:4px;color: #ffffff;font-weight:600;margin-bottom:20px; margin-top:10px; " id="fancy-title-63" class="mk-fancy-title responsive-align-center simple-title center-align   "><span class="fancy-title-span pointed" >Want to get in touch?</span></h3><h3  style="font-size: 20px;text-align:center;line-height:30px;letter-spacing:0px;color: #ffffff;font-weight:inherit;margin-bottom:20px; margin-top:10px; " id="fancy-title-64" class="mk-fancy-title responsive-align-center simple-title center-align   "><span class="fancy-title-span pointed" >
-<p style="text-align: center;">Questions? Compliments? Throw them my way.</p>
-</span></h3><input type="hidden" id="security" name="security" value="dcfde8171a" /><input type="hidden" name="_wp_http_referer" value="/" /><div id="contact-form-65" class="mk-contact-form-wrapper classic-style light-skin  ">    <form class="mk-contact-form" method="post" novalidate="novalidate">        <div class="mk-form-row">
-                        <i class="mk-icon-user"></i>
-                        <input placeholder="FULL NAME" type="text" required="required" name="contact_name" class="text-input" value="" tabindex="390" />
-                    </div>        <div class="mk-form-row">
-                        <i class="mk-icon-envelope-o"></i>
-                        <input placeholder="EMAIL" type="email" required="required" name="contact_email" class="text-input" value="" tabindex="391" />
-                        </div>        <textarea required="required" placeholder="SHORT MESSAGE" name="contact_content" class="mk-textarea" tabindex="392"></textarea><div class="mk-form-row">
-                <i class="mk-li-lock"></i>
-                <input placeholder="Enter Captcha" type="text" name="captcha" class="captcha-form text-input full" tabindex="393" required="required" autocomplete="off" />
-                    <img src="http://brycebladon.com/wp-content/themes/ken/captcha/captcha.php" class="captcha-image" alt="captcha txt"> 
-                    <a href="#" class="captcha-change-image" tabindex="394">Not readable? Change text.</a>
-            </div>        <div class="button-row">
-                        <button tabindex="395" class="mk-progress-button mk-button  outline-button medium" data-style="move-up">
-                            <span class="mk-progress-button-content">SUBMIT</span>
-                            <span class="mk-progress">
-                                <span class="mk-progress-inner"></span>
-                            </span>
-                            <span class="state-success"><i class="mk-icon-check"></i></span>
-                            <span class="state-error"><i class="mk-icon-times"></i></span>
-                        </button>
-                    </div>        <i class="mk-contact-loading mk-icon-refresh"></i>        <i class="mk-contact-success mk-theme-icon-tick"></i><input type="hidden" id="sh_id" name="sh_id" value="65"><input type="hidden" id="p_id" name="p_id" value="25160"><input type="hidden" id="security" name="security" value="dcfde8171a" /><input type="hidden" name="_wp_http_referer" value="/" />    </form>    <div class="clearboth"></div></div><div class=" "><div id="social-networks-66" class="mk-social-network circle-style social-align-center "><ul><li><a style="margin: 8px;" target="_blank" class="twitter-hover light" href="https://twitter.com/BryceBladon"><i class="mk-icon-twitter"></i></a></li><li><a style="margin: 8px;" target="_blank" class="instagram-hover light" href="http://instagram.com/brycebladon"><i class="mk-icon-instagram"></i></a></li><li><a style="margin: 8px;" target="_blank" class="linkedin-hover light" href="https://www.linkedin.com/in/brycebladon"><i class="mk-icon-linkedin"></i></a></li></ul></div></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper"></div></div></div></div>
-	</div></div><div class="clearboth"></div></div><div class="clearboth"></div></div><div class="mk-main-wrapper-holder"><div class="theme-page-wrapper full-layout mk-grid vc_row-fluid no-padding"><div class="theme-content no-padding">
-						<div class="clearboth"></div>
-						
-										
-			
-			</div>
-			
-		<div class="clearboth"></div>	
-		</div>
-		<div class="clearboth"></div>
-	</div>
-</div>
+                          <a class="mk-loadmore-button" style="display:none;" href="#"><i
+                                  class="mk-icon-circle-o-notch"></i><i class="mk-icon-chevron-down"></i></a></div>
+                      </div>
+                      <div class="clearboth"></div>
+                      <div class="mk-shortcode mk-padding-shortcode " style="height:20px"></div>
+                      <div class="clearboth"></div>
+                      <div id="divider-43" style="padding: 10px 0px 20px 0px;"
+                           class="mk-divider divider_full_width divider-single  ">
+                        <div style="border-color:#ff4351;" class="divider-inner"></div>
+                      </div>
+                      <div class="clearboth"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="wpb_column vc_column_container vc_col-sm-2">
+                  <div class="vc_column-inner ">
+                    <div class="wpb_wrapper"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="clearboth"></div>
+              <div class="mk-shortcode mk-padding-shortcode " style="height:40px"></div>
+              <div class="clearboth"></div>
+              <div id="clients-shortcode-44"
+                   class="mk-clients-shortcode  mk-swiper-container mk-swiper-slider bg-cover-true " data-loop="false"
+                   data-freeModeFluid="true" data-slidesPerView="auto" data-pagination="false" data-freeMode="true"
+                   data-mousewheelControl="false" data-direction="horizontal" data-slideshowSpeed="4000"
+                   data-animationSpeed="600" data-directionNav="false">
+                <ul class="mk-swiper-wrapper">
+                  <li class="client-item swiper-slide" onClick="return true">
+                    <div class="client-item-wrapper" style="border-color:#ffffff;"><a target="_blank"
+                                                                                      href="https://www.axiomzen.co/">
+                      <div title="Axiom Zen" class="client-logo"
+                           style="background-image:url(http://brycebladon.com/wp-content/uploads/2017/04/Axiom-Zen.png); height:150px;width:150px;180background-color:#ffffff;"></div>
+                      <div class="clients-info">
+                        <div class="clients-info-holder" style="height:150px;"><span
+                                class="client-company">Axiom Zen</span>
+                          <div id="divider-45" style="padding: 10px 0px 0px 0px;"
+                               class="mk-divider divider_custom_width divider-single  ">
+                            <div style="border-color:rgba(255,255,255,0.4);" class="divider-inner"></div>
+                          </div>
+                          <div class="clearboth"></div>
+                        </div>
+                      </div>
+                    </a></div>
+                  </li>
+                  <li class="client-item swiper-slide" onClick="return true">
+                    <div class="client-item-wrapper" style="border-color:#ffffff;"><a target="_blank"
+                                                                                      href="http://www.metalabdesign.com/">
+                      <div title="Metalab" class="client-logo"
+                           style="background-image:url(http://brycebladon.com/wp-content/uploads/2014/06/medium.png); height:150px;width:150px;180background-color:#ffffff;"></div>
+                      <div class="clients-info">
+                        <div class="clients-info-holder" style="height:150px;"><span
+                                class="client-company">Metalab</span>
+                          <div id="divider-46" style="padding: 10px 0px 0px 0px;"
+                               class="mk-divider divider_custom_width divider-single  ">
+                            <div style="border-color:rgba(255,255,255,0.4);" class="divider-inner"></div>
+                          </div>
+                          <div class="clearboth"></div>
+                        </div>
+                      </div>
+                    </a></div>
+                  </li>
+                  <li class="client-item swiper-slide" onClick="return true">
+                    <div class="client-item-wrapper" style="border-color:#ffffff;"><a target="_blank"
+                                                                                      href="https://routific.com/">
+                      <div title="Routific" class="client-logo"
+                           style="background-image:url(http://brycebladon.com/wp-content/uploads/2017/04/Routific.jpg); height:150px;width:150px;180background-color:#ffffff;"></div>
+                      <div class="clients-info">
+                        <div class="clients-info-holder" style="height:150px;"><span
+                                class="client-company">Routific</span>
+                          <div id="divider-47" style="padding: 10px 0px 0px 0px;"
+                               class="mk-divider divider_custom_width divider-single  ">
+                            <div style="border-color:rgba(255,255,255,0.4);" class="divider-inner"></div>
+                          </div>
+                          <div class="clearboth"></div>
+                        </div>
+                      </div>
+                    </a></div>
+                  </li>
+                  <li class="client-item swiper-slide" onClick="return true">
+                    <div class="client-item-wrapper" style="border-color:#ffffff;"><a target="_blank"
+                                                                                      href="http://www.hammerandtusk.com/">
+                      <div title="Hammer & Tusk" class="client-logo"
+                           style="background-image:url(http://brycebladon.com/wp-content/uploads/2017/04/Hammer-and-Tusk.png); height:150px;width:150px;180background-color:#ffffff;"></div>
+                      <div class="clients-info">
+                        <div class="clients-info-holder" style="height:150px;"><span class="client-company">Hammer & Tusk</span>
+                          <div id="divider-48" style="padding: 10px 0px 0px 0px;"
+                               class="mk-divider divider_custom_width divider-single  ">
+                            <div style="border-color:rgba(255,255,255,0.4);" class="divider-inner"></div>
+                          </div>
+                          <div class="clearboth"></div>
+                        </div>
+                      </div>
+                    </a></div>
+                  </li>
+                  <li class="client-item swiper-slide" onClick="return true">
+                    <div class="client-item-wrapper" style="border-color:#ffffff;"><a target="_blank"
+                                                                                      href="https://www.zenhub.com/">
+                      <div title="ZenHub" class="client-logo"
+                           style="background-image:url(http://brycebladon.com/wp-content/uploads/2017/04/ZenHub.jpg); height:150px;width:150px;180background-color:#ffffff;"></div>
+                      <div class="clients-info">
+                        <div class="clients-info-holder" style="height:150px;"><span
+                                class="client-company">ZenHub</span>
+                          <div id="divider-49" style="padding: 10px 0px 0px 0px;"
+                               class="mk-divider divider_custom_width divider-single  ">
+                            <div style="border-color:rgba(255,255,255,0.4);" class="divider-inner"></div>
+                          </div>
+                          <div class="clearboth"></div>
+                        </div>
+                      </div>
+                    </a></div>
+                  </li>
+                  <li class="client-item swiper-slide" onClick="return true">
+                    <div class="client-item-wrapper" style="border-color:#ffffff;"><a target="_blank"
+                                                                                      href="https://timeline.com/">
+                      <div title="Timeline" class="client-logo"
+                           style="background-image:url(http://brycebladon.com/wp-content/uploads/2017/04/Timeline.png); height:150px;width:150px;180background-color:#ffffff;"></div>
+                      <div class="clients-info">
+                        <div class="clients-info-holder" style="height:150px;"><span
+                                class="client-company">Timeline</span>
+                          <div id="divider-50" style="padding: 10px 0px 0px 0px;"
+                               class="mk-divider divider_custom_width divider-single  ">
+                            <div style="border-color:rgba(255,255,255,0.4);" class="divider-inner"></div>
+                          </div>
+                          <div class="clearboth"></div>
+                        </div>
+                      </div>
+                    </a></div>
+                  </li>
+                  <li class="client-item swiper-slide" onClick="return true">
+                    <div class="client-item-wrapper" style="border-color:#ffffff;"><a target="_blank"
+                                                                                      href="https://www.freelancersunion.org/">
+                      <div title="Freelancers Union" class="client-logo"
+                           style="background-image:url(http://brycebladon.com/wp-content/uploads/2014/06/freelancers-union.png); height:150px;width:150px;180background-color:#ffffff;"></div>
+                      <div class="clients-info">
+                        <div class="clients-info-holder" style="height:150px;"><span class="client-company">Freelancers Union</span>
+                          <div id="divider-51" style="padding: 10px 0px 0px 0px;"
+                               class="mk-divider divider_custom_width divider-single  ">
+                            <div style="border-color:rgba(255,255,255,0.4);" class="divider-inner"></div>
+                          </div>
+                          <div class="clearboth"></div>
+                        </div>
+                      </div>
+                    </a></div>
+                  </li>
+                  <li class="client-item swiper-slide" onClick="return true">
+                    <div class="client-item-wrapper" style="border-color:#ffffff;"><a target="_blank"
+                                                                                      href="http://www.creativebloq.com/net-magazine">
+                      <div title=".net Magazine" class="client-logo"
+                           style="background-image:url(http://brycebladon.com/wp-content/uploads/2014/06/net-magazine.png); height:150px;width:150px;180background-color:#ffffff;"></div>
+                      <div class="clients-info">
+                        <div class="clients-info-holder" style="height:150px;"><span class="client-company">.net Magazine</span>
+                          <div id="divider-52" style="padding: 10px 0px 0px 0px;"
+                               class="mk-divider divider_custom_width divider-single  ">
+                            <div style="border-color:rgba(255,255,255,0.4);" class="divider-inner"></div>
+                          </div>
+                          <div class="clearboth"></div>
+                        </div>
+                      </div>
+                    </a></div>
+                  </li>
+                  <li class="client-item swiper-slide" onClick="return true">
+                    <div class="client-item-wrapper" style="border-color:#ffffff;"><a target="_blank"
+                                                                                      href="http://www.nexencnoocltd.com/">
+                      <div title="Nexen Inc. " class="client-logo"
+                           style="background-image:url(http://brycebladon.com/wp-content/uploads/2014/06/nexen-square.png); height:150px;width:150px;180background-color:#ffffff;"></div>
+                      <div class="clients-info">
+                        <div class="clients-info-holder" style="height:150px;"><span
+                                class="client-company">Nexen Inc. </span>
+                          <div id="divider-53" style="padding: 10px 0px 0px 0px;"
+                               class="mk-divider divider_custom_width divider-single  ">
+                            <div style="border-color:rgba(255,255,255,0.4);" class="divider-inner"></div>
+                          </div>
+                          <div class="clearboth"></div>
+                        </div>
+                      </div>
+                    </a></div>
+                  </li>
+                  <li class="client-item swiper-slide" onClick="return true">
+                    <div class="client-item-wrapper" style="border-color:#ffffff;"><a target="_blank"
+                                                                                      href="http://www.nrcan.gc.ca/home">
+                      <div title="Natural Resources Canada" class="client-logo"
+                           style="background-image:url(http://brycebladon.com/wp-content/uploads/2014/06/NRCan-e1403225148766.jpeg); height:150px;width:150px;180background-color:#ffffff;"></div>
+                      <div class="clients-info">
+                        <div class="clients-info-holder" style="height:150px;"><span class="client-company">Natural Resources Canada</span>
+                          <div id="divider-54" style="padding: 10px 0px 0px 0px;"
+                               class="mk-divider divider_custom_width divider-single  ">
+                            <div style="border-color:rgba(255,255,255,0.4);" class="divider-inner"></div>
+                          </div>
+                          <div class="clearboth"></div>
+                        </div>
+                      </div>
+                    </a></div>
+                  </li>
+                  <li class="client-item swiper-slide" onClick="return true">
+                    <div class="client-item-wrapper" style="border-color:#ffffff;"><a target="_blank"
+                                                                                      href="https://www.pixelunion.net/">
+                      <div title="Pixel Union" class="client-logo"
+                           style="background-image:url(http://brycebladon.com/wp-content/uploads/2014/06/pixel-union-e1403223164152.jpg); height:150px;width:150px;180background-color:#ffffff;"></div>
+                      <div class="clients-info">
+                        <div class="clients-info-holder" style="height:150px;"><span
+                                class="client-company">Pixel Union</span>
+                          <div id="divider-55" style="padding: 10px 0px 0px 0px;"
+                               class="mk-divider divider_custom_width divider-single  ">
+                            <div style="border-color:rgba(255,255,255,0.4);" class="divider-inner"></div>
+                          </div>
+                          <div class="clearboth"></div>
+                        </div>
+                      </div>
+                    </a></div>
+                  </li>
+                  <li class="client-item swiper-slide" onClick="return true">
+                    <div class="client-item-wrapper" style="border-color:#ffffff;"><a target="_blank"
+                                                                                      href="http://www.viff.org/">
+                      <div title="Vancouver International Film Fest" class="client-logo"
+                           style="background-image:url(http://brycebladon.com/wp-content/uploads/2014/08/viff.jpg); height:150px;width:150px;180background-color:#ffffff;"></div>
+                      <div class="clients-info">
+                        <div class="clients-info-holder" style="height:150px;"><span class="client-company">Vancouver International Film Fest</span>
+                          <div id="divider-56" style="padding: 10px 0px 0px 0px;"
+                               class="mk-divider divider_custom_width divider-single  ">
+                            <div style="border-color:rgba(255,255,255,0.4);" class="divider-inner"></div>
+                          </div>
+                          <div class="clearboth"></div>
+                        </div>
+                      </div>
+                    </a></div>
+                  </li>
+                  <li class="client-item swiper-slide" onClick="return true">
+                    <div class="client-item-wrapper" style="border-color:#ffffff;"><a target="_blank"
+                                                                                      href="http://www.uvic.ca/">
+                      <div title="University of Victoria" class="client-logo"
+                           style="background-image:url(http://brycebladon.com/wp-content/uploads/2014/06/university-of-victoria_logo-converted.gif); height:150px;width:150px;180background-color:#ffffff;"></div>
+                      <div class="clients-info">
+                        <div class="clients-info-holder" style="height:150px;"><span class="client-company">University of Victoria</span>
+                          <div id="divider-57" style="padding: 10px 0px 0px 0px;"
+                               class="mk-divider divider_custom_width divider-single  ">
+                            <div style="border-color:rgba(255,255,255,0.4);" class="divider-inner"></div>
+                          </div>
+                          <div class="clearboth"></div>
+                        </div>
+                      </div>
+                    </a></div>
+                  </li>
+                  <li class="client-item swiper-slide" onClick="return true">
+                    <div class="client-item-wrapper" style="border-color:#ffffff;"><a target="_blank"
+                                                                                      href="http://vancouverweekly.com/">
+                      <div title="Vancouver Weekly" class="client-logo"
+                           style="background-image:url(http://brycebladon.com/wp-content/uploads/2014/06/vancouver-weekly-e1403223495908.png); height:150px;width:150px;180background-color:#ffffff;"></div>
+                      <div class="clients-info">
+                        <div class="clients-info-holder" style="height:150px;"><span class="client-company">Vancouver Weekly</span>
+                          <div id="divider-58" style="padding: 10px 0px 0px 0px;"
+                               class="mk-divider divider_custom_width divider-single  ">
+                            <div style="border-color:rgba(255,255,255,0.4);" class="divider-inner"></div>
+                          </div>
+                          <div class="clearboth"></div>
+                        </div>
+                      </div>
+                    </a></div>
+                  </li>
+                  <li class="client-item swiper-slide" onClick="return true">
+                    <div class="client-item-wrapper" style="border-color:#ffffff;"><a target="_blank"
+                                                                                      href="http://www.fearlessphotographers.com/">
+                      <div title="Fearless Photographers" class="client-logo"
+                           style="background-image:url(http://brycebladon.com/wp-content/uploads/2014/07/Fearless-Logo.jpg); height:150px;width:150px;180background-color:#ffffff;"></div>
+                      <div class="clients-info">
+                        <div class="clients-info-holder" style="height:150px;"><span class="client-company">Fearless Photographers</span>
+                          <div id="divider-59" style="padding: 10px 0px 0px 0px;"
+                               class="mk-divider divider_custom_width divider-single  ">
+                            <div style="border-color:rgba(255,255,255,0.4);" class="divider-inner"></div>
+                          </div>
+                          <div class="clearboth"></div>
+                        </div>
+                      </div>
+                    </a></div>
+                  </li>
+                  <li class="client-item swiper-slide" onClick="return true">
+                    <div class="client-item-wrapper" style="border-color:#ffffff;"><a target="_blank"
+                                                                                      href="http://www.kanoapps.com/">
+                      <div title="KANO/APPS" class="client-logo"
+                           style="background-image:url(http://brycebladon.com/wp-content/uploads/2014/06/kano-apps.jpg); height:150px;width:150px;180background-color:#ffffff;"></div>
+                      <div class="clients-info">
+                        <div class="clients-info-holder" style="height:150px;"><span
+                                class="client-company">KANO/APPS</span>
+                          <div id="divider-60" style="padding: 10px 0px 0px 0px;"
+                               class="mk-divider divider_custom_width divider-single  ">
+                            <div style="border-color:rgba(255,255,255,0.4);" class="divider-inner"></div>
+                          </div>
+                          <div class="clearboth"></div>
+                        </div>
+                      </div>
+                    </a></div>
+                  </li>
+                </ul>
+                <div class="clearboth"></div>
+              </div>
+              <div class="clearboth"></div>
+              <div class="mk-shortcode mk-padding-shortcode " style="height:60px"></div>
+              <div class="clearboth"></div>
+              <span id="icon-font-61" class="mk-font-icons mk-shortcode icon-align-center remove-frame "><a
+                      class="mk-smooth" href="#contact-1" target="_self"><i style="margin:15px 4px; border-width:2px; "
+                                                                            class="mk-theme-icon-bottom-bigger custom-font-icon mk-size-medium mk-pulse"></i></a></span>
+            </div>
+          </div>
+          <div class="clearboth"></div>
+        </div>
+        <div class="clearboth"></div>
+      </div>
+      <div class="mk-main-wrapper-holder">
+        <div class="theme-page-wrapper full-layout mk-grid vc_row-fluid no-padding">
+          <div class="theme-content no-padding">
+            <div class="clearboth"></div>
+          </div>
+        </div>
+      </div>
+      <div id="contact-1" data-intro-effect="false"
+           class="page-section-62  expandable-false fullwidth-false section-expandable-false full-height-false  mk-video-holder mk-page-section parallax-false  "
+           data-direction="vertical">
+        <div class="bg-layer clip">
+          <div class="mk-video-color-mask"></div>
+          <div class="scroll-layer " style="" css-attach="fixed" data-attach="scroll"></div>
+        </div>
+        <div class="mk-grid vc_row-fluid page-section-content expandable-false">
+          <div class="mk-padding-wrapper">
+            <div style="" class="vc_col-sm-12 wpb_column column_container ">
+              <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                <div class="wpb_column vc_column_container vc_col-sm-3">
+                  <div class="vc_column-inner ">
+                    <div class="wpb_wrapper"></div>
+                  </div>
+                </div>
+                <div class="wpb_column vc_column_container vc_col-sm-6">
+                  <div class="vc_column-inner ">
+                    <div class="wpb_wrapper"><h3
+                            style="font-size: 36px;text-align:center;line-height:50px;letter-spacing:4px;color: #ffffff;font-weight:600;margin-bottom:20px; margin-top:10px; "
+                            id="fancy-title-63"
+                            class="mk-fancy-title responsive-align-center simple-title center-align   "><span
+                            class="fancy-title-span pointed">Want to get in touch?</span></h3>
+                      <h3 style="font-size: 20px;text-align:center;line-height:30px;letter-spacing:0px;color: #ffffff;font-weight:inherit;margin-bottom:20px; margin-top:10px; "
+                          id="fancy-title-64"
+                          class="mk-fancy-title responsive-align-center simple-title center-align   "><span
+                              class="fancy-title-span pointed">
+                                    <p style="text-align: center;">Questions? Compliments? Throw them my way.</p>
+                                    </span></h3>
+                      <input type="hidden" id="security" name="security" value="dcfde8171a"/><input type="hidden"
+                                                                                                    name="_wp_http_referer"
+                                                                                                    value="/"/>
+                      <div id="contact-form-65" class="mk-contact-form-wrapper classic-style light-skin  ">
+                        <form class="mk-contact-form" method="post" novalidate="novalidate">
+                          <div class="mk-form-row">
+                            <i class="mk-icon-user"></i>
+                            <input placeholder="FULL NAME" type="text" required="required" name="contact_name"
+                                   class="text-input" value="" tabindex="390"/>
+                          </div>
+                          <div class="mk-form-row">
+                            <i class="mk-icon-envelope-o"></i>
+                            <input placeholder="EMAIL" type="email" required="required" name="contact_email"
+                                   class="text-input" value="" tabindex="391"/>
+                          </div>
+                          <textarea required="required" placeholder="SHORT MESSAGE" name="contact_content"
+                                    class="mk-textarea" tabindex="392"></textarea>
+                          <div class="mk-form-row">
+                            <i class="mk-li-lock"></i>
+                            <input placeholder="Enter Captcha" type="text" name="captcha"
+                                   class="captcha-form text-input full" tabindex="393" required="required"
+                                   autocomplete="off"/>
+                            <img src="http://brycebladon.com/wp-content/themes/ken/captcha/captcha.php"
+                                 class="captcha-image" alt="captcha txt">
+                            <a href="#" class="captcha-change-image" tabindex="394">Not readable? Change text.</a>
+                          </div>
+                          <div class="button-row">
+                            <button tabindex="395" class="mk-progress-button mk-button  outline-button medium"
+                                    data-style="move-up">
+                              <span class="mk-progress-button-content">SUBMIT</span>
+                              <span class="mk-progress">
+                                    <span class="mk-progress-inner"></span>
+                                    </span>
+                              <span class="state-success"><i class="mk-icon-check"></i></span>
+                              <span class="state-error"><i class="mk-icon-times"></i></span>
+                            </button>
+                          </div>
+                          <i class="mk-contact-loading mk-icon-refresh"></i> <i
+                                class="mk-contact-success mk-theme-icon-tick"></i><input type="hidden" id="sh_id"
+                                                                                         name="sh_id" value="65"><input
+                                type="hidden" id="p_id" name="p_id" value="25160"><input type="hidden" id="security"
+                                                                                         name="security"
+                                                                                         value="dcfde8171a"/><input
+                                type="hidden" name="_wp_http_referer" value="/"/></form>
+                        <div class="clearboth"></div>
+                      </div>
+                      <div class=" ">
+                        <div id="social-networks-66" class="mk-social-network circle-style social-align-center ">
+                          <ul>
+                            <li><a style="margin: 8px;" target="_blank" class="twitter-hover light"
+                                   href="https://twitter.com/BryceBladon"><i class="mk-icon-twitter"></i></a></li>
+                            <li><a style="margin: 8px;" target="_blank" class="instagram-hover light"
+                                   href="http://instagram.com/brycebladon"><i class="mk-icon-instagram"></i></a></li>
+                            <li><a style="margin: 8px;" target="_blank" class="linkedin-hover light"
+                                   href="https://www.linkedin.com/in/brycebladon"><i class="mk-icon-linkedin"></i></a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="wpb_column vc_column_container vc_col-sm-3">
+                  <div class="vc_column-inner ">
+                    <div class="wpb_wrapper"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="clearboth"></div>
+        </div>
+        <div class="clearboth"></div>
+      </div>
+      <div class="mk-main-wrapper-holder">
+        <div class="theme-page-wrapper full-layout mk-grid vc_row-fluid no-padding">
+          <div class="theme-content no-padding">
+            <div class="clearboth"></div>
 
-</div><!-- End boxed layout -->
-<a href="#" class="mk-go-top"><i class="mk-icon-angle-up"></i></a>
+
+          </div>
+
+          <div class="clearboth"></div>
+        </div>
+        <div class="clearboth"></div>
+      </div>
+    </div>
+
+  </div><!-- End boxed layout -->
+  <a href="#" class="mk-go-top"><i class="mk-icon-angle-up"></i></a>
 </div><!-- End Theme main Wrapper -->
 
 
+<script type="text/javascript">
+	php = {
+		hasAdminbar: false,
+		json: (null != null) ? null : "",
+		styles: ''
+	};
 
+	var styleTag = document.createElement("style"),
+		head = document.getElementsByTagName("head")[0];
 
-
-<script type="text/javascript">  
-    php = {
-        hasAdminbar: false,
-        json: (null != null) ? null : "",
-        styles:  ''
-      };
-      
-    var styleTag = document.createElement("style"),
-      head = document.getElementsByTagName("head")[0];
-
-    styleTag.type = "text/css";
-    styleTag.innerHTML = php.styles;
-    head.appendChild(styleTag);
-    </script>
+	styleTag.type = "text/css";
+	styleTag.innerHTML = php.styles;
+	head.appendChild(styleTag);
+</script>
 <script type='text/javascript' src='http://brycebladon.com/wp-includes/js/jquery/ui/core.min.js'></script>
 <script type='text/javascript' src='http://brycebladon.com/wp-includes/js/jquery/ui/widget.min.js'></script>
 <script type='text/javascript' src='http://brycebladon.com/wp-includes/js/jquery/ui/tabs.min.js'></script>
@@ -304,9 +1219,13 @@ body,.theme-main-wrapper { background-color:#ffffff;background-repeat:repeat;bac
 <script type='text/javascript' src='http://brycebladon.com/wp-content/themes/ken/js/SmoothScroll.js'></script>
 <script type='text/javascript' src='http://brycebladon.com/wp-content/themes/ken/js/min/plugins-ck.js'></script>
 <script type='text/javascript'>
-/* <![CDATA[ */
-var ajax_login_object = {"ajaxurl":"http:\/\/brycebladon.com\/wp-admin\/admin-ajax.php","redirecturl":"http:\/\/brycebladon.com","loadingmessage":"Sending user info, please wait..."};
-/* ]]> */
+	/* <![CDATA[ */
+	var ajax_login_object = {
+		"ajaxurl": "http:\/\/brycebladon.com\/wp-admin\/admin-ajax.php",
+		"redirecturl": "http:\/\/brycebladon.com",
+		"loadingmessage": "Sending user info, please wait..."
+	};
+	/* ]]> */
 </script>
 <script type='text/javascript' src='http://brycebladon.com/wp-content/themes/ken/js/min/theme-scripts-ck.js'></script>
 <script type='text/javascript' src='http://brycebladon.com/wp-content/themes/ken/custom.js'></script>
@@ -315,42 +1234,47 @@ var ajax_login_object = {"ajaxurl":"http:\/\/brycebladon.com\/wp-admin\/admin-aj
 <script type='text/javascript' src='http://brycebladon.com/wp-includes/js/jquery/ui/menu.min.js'></script>
 <script type='text/javascript' src='http://brycebladon.com/wp-includes/js/wp-a11y.min.js'></script>
 <script type='text/javascript'>
-/* <![CDATA[ */
-var uiAutocompleteL10n = {"noResults":"No results found.","oneResult":"1 result found. Use up and down arrow keys to navigate.","manyResults":"%d results found. Use up and down arrow keys to navigate.","itemSelected":"Item selected."};
-/* ]]> */
+	/* <![CDATA[ */
+	var uiAutocompleteL10n = {
+		"noResults": "No results found.",
+		"oneResult": "1 result found. Use up and down arrow keys to navigate.",
+		"manyResults": "%d results found. Use up and down arrow keys to navigate.",
+		"itemSelected": "Item selected."
+	};
+	/* ]]> */
 </script>
 <script type='text/javascript' src='http://brycebladon.com/wp-includes/js/jquery/ui/autocomplete.min.js'></script>
 <script type='text/javascript' src='http://brycebladon.com/wp-includes/js/wp-embed.min.js'></script>
-<script type='text/javascript' src='http://brycebladon.com/wp-content/plugins/js_composer_theme/assets/js/dist/js_composer_front.min.js'></script>
-	<script type="text/javascript">
-	                    jQuery(document).ready(function(){
+<script type='text/javascript'
+        src='http://brycebladon.com/wp-content/plugins/js_composer_theme/assets/js/dist/js_composer_front.min.js'></script>
+<script type="text/javascript">
+	jQuery(document).ready(function () {
 
-});                	</script>
-
+	});                  </script>
 
 
 <script>
-    // Run this very early after DOM is ready 
-    (function ($) {
-        // Prevent browser native behaviour of jumping to anchor
-        // while preserving support for current links (shared across net or internally on page)
-        var loc = window.location,
-            hash = loc.hash;
+	// Run this very early after DOM is ready
+	(function ($) {
+		// Prevent browser native behaviour of jumping to anchor
+		// while preserving support for current links (shared across net or internally on page)
+		var loc = window.location,
+			hash = loc.hash;
 
-        // Detect hashlink and change it's name with !loading appendix
-        if(hash.length && hash.substring(1).length) {
-            var $topLevelSections = $('.vc_row, .mk-page-section, #comments');
-            var $section = $topLevelSections.filter( '#' + hash.substring(1) );
-            // We smooth scroll only to page section and rows where we define our anchors.
-            // This should prevent conflict with third party plugins relying on hash
-            if( ! $section.length )  return;
-            // Mutate hash for some good reason - crazy jumps of browser. We want really smooth scroll on load
-            // Discard loading state if it already exists in url (multiple refresh)
-            hash = hash.replace( '!loading', '' );
-            var newUrl = hash + '!loading';
-            loc.hash = newUrl;
-        }
-    }(jQuery));
+		// Detect hashlink and change it's name with !loading appendix
+		if (hash.length && hash.substring(1).length) {
+			var $topLevelSections = $('.vc_row, .mk-page-section, #comments');
+			var $section = $topLevelSections.filter('#' + hash.substring(1));
+			// We smooth scroll only to page section and rows where we define our anchors.
+			// This should prevent conflict with third party plugins relying on hash
+			if (!$section.length) return;
+			// Mutate hash for some good reason - crazy jumps of browser. We want really smooth scroll on load
+			// Discard loading state if it already exists in url (multiple refresh)
+			hash = hash.replace('!loading', '');
+			var newUrl = hash + '!loading';
+			loc.hash = newUrl;
+		}
+	}(jQuery));
 </script>
 
 </body>
