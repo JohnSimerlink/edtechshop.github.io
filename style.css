@@ -998,12 +998,16 @@ body, .theme-main-wrapper {
 .image-cropper-right {
   margin-left: 20px;
 }
- .subtitle, #subtitle1, #subtitle2 {
+ .subtitle-on-white, #subtitle1, #subtitle2 {
    font-family: Dotum, Roboto;
    font-size: 14px;
-   color: lightgrey !important;
-
+   color: darkslategrey !important;
  }
+.subtitle-on-pink, #subtitle2 {
+  font-family: Dotum, Roboto;
+  font-size: 14px;
+  color: lightgrey !important;
+}
 
 .subtitle-spacing {
   /*margin-bottom: 20px;*/
