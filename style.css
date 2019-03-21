@@ -227,40 +227,40 @@ body, .theme-main-wrapper {
   top: 0.6px;
 }
 
-.page-section-1 .page-section-content.expandable-false, .page-section-1.expandable-true {
+.page-section-white .page-section-content.expandable-false, .page-section-white.expandable-true {
   padding-bottom: 140px !important;
 }
 
-.page-section-1 {
+.page-section-white {
   background-position: left bottom;
   background-repeat: no-repeat;
 }
 
-.page-section-1 {
+.page-section-white {
   background-attachment: scroll;
   background-position: left bottom;
   background-repeat: no-repeat;
   min-height: 100px;
 }
 
-.page-section-1 .bg-layer .scroll-layer {
+.page-section-white .bg-layer .scroll-layer {
   background-attachment: scroll;
   background-position: left bottom;
   background-repeat: no-repeat;
 }
 
-.page-section-1 .page-section-content.expandable-false, .page-section-1.expandable-true {
+.page-section-white .page-section-content.expandable-false, .page-section-white.expandable-true {
   padding: 30px 0;
 }
 
-.page-section-1 .alt-title span {
+.page-section-white .alt-title span {
 }
 
-.page-section-1.section-expandable-true:not(.active-toggle):hover .mk-section-color-mask {
+.page-section-white.section-expandable-true:not(.active-toggle):hover .mk-section-color-mask {
   opacity: 0.2 !important;
 }
 
-.page-section-1 .expandable-section-trigger i {
+.page-section-white .expandable-section-trigger i {
   opacity: 1;
   top: 0 !important;
 }
@@ -351,17 +351,18 @@ body, .theme-main-wrapper {
   top: 0.6px;
 }
 
-.page-section-10 .page-section-content.expandable-false, .page-section-10.expandable-true {
+
+.page-section-pink .page-section-content.expandable-false, .page-section-pink.expandable-true {
   padding-bottom: 130px !important;
 }
 
-.page-section-10 {
+.page-section-pink {
   background-color: #ff4351;
   background-position: left top;
   background-repeat: repeat;
 }
 
-.page-section-10 {
+.page-section-pink {
   background-attachment: scroll;
   background-color: #ff4351;
   background-position: left top;
@@ -369,48 +370,36 @@ body, .theme-main-wrapper {
   min-height: 100px;
 }
 
-.page-section-10 .bg-layer .scroll-layer {
+.page-section-pink .bg-layer .scroll-layer {
   background-attachment: scroll;
   background-position: left top;
   background-repeat: repeat;
 }
 
-.page-section-10 .page-section-content.expandable-false, .page-section-10.expandable-true {
+.page-section-pink .page-section-content.expandable-false, .page-section-pink.expandable-true {
   padding: 20px 0;
 }
 
-.page-section-10 .alt-title span {
+.page-section-pink .alt-title span {
   background-color: #ff4351;
 }
 
-.page-section-10.section-expandable-true:not(.active-toggle):hover .mk-section-color-mask {
+.page-section-pink.section-expandable-true:not(.active-toggle):hover .mk-section-color-mask {
   opacity: 0.2 !important;
 }
 
-.page-section-10 .expandable-section-trigger i {
+.page-section-pink .expandable-section-trigger i {
   opacity: 1;
   top: 0 !important;
 }
 
-#fancy-title-21 a {
+#fancy-title-pink, .fancy-title-pink span, .fancy-title-pink strong, .fancy-title-pink a, .fancy-title-pink div, .fancy-title-pink p {
   color: #ff4351;
+}
+.fancy-title-white, .fancy-title-white span, .fancy-title-white strong, .fancy-title-white a {
+  color: white;
 }
 
-#fancy-title-22 a {
-  color: #ff4351;
-}
-
-#fancy-title-23 a {
-  color: #ff4351;
-}
-
-#fancy-title-24 a {
-  color: #ff4351;
-}
-
-#fancy-title-25 a {
-  color: #ff4351;
-}
 
 #icon-font-26 i {
   background-color:;
