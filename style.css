@@ -393,8 +393,8 @@ body, .theme-main-wrapper {
   top: 0 !important;
 }
 
-#fancy-title-pink, .fancy-title-pink span, .fancy-title-pink strong, .fancy-title-pink a, .fancy-title-pink div, .fancy-title-pink p {
-  color: #ff4351;
+#fancy-title-pink, .fancy-title-pink span, .fancy-title-pink strong, .fancy-title-pink a, .fancy-title-pink div, .fancy-title-pink p, .fancy-title-pink1, #fancy-title-pink1 *, .fancy-title-pink2, .fancy-title-pink3, .fancy-title-pink4, .fancy-title-pink5, .fancy-title-pink6 {
+  color: #ff4351 !important;  /* meh */
 }
 .fancy-title-white, .fancy-title-white span, .fancy-title-white strong, .fancy-title-white a {
   color: white;
