@@ -98,8 +98,8 @@ body, .theme-main-wrapper {
 
 @font-face {
   font-family: 'FontAwesome';
-  src: url('http://brycebladon.com/wp-content/themes/ken/stylesheet/awesome-icons/fontawesome-webfont.eot?v=4.2');
-  src: url('http://brycebladon.com/wp-content/themes/ken/stylesheet/awesome-icons/fontawesome-webfont.eot?#iefix&v=4.2') format('embedded-opentype'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/awesome-icons/fontawesome-webfont.woff?v=4.2') format('woff'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/awesome-icons/fontawesome-webfont.ttf?v=4.2') format('truetype'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/awesome-icons/fontawesome-webfont.svg#FontAwesome') format('svg');;
+  src: url('fontawesome-webfont.eot?v=4.2');
+  src: url('fontawesome-webfont.eot?#iefix&v=4.2') format('embedded-opentype'), url('fontawesome-webfont.woff?v=4.2') format('woff'), url('fontawesome-webfont.ttf?v=4.2') format('truetype'), url('fontawesome-webfont.svg#FontAwesome') format('svg');;
   font-weight: normal;
   font-style: normal;
 }
@@ -108,14 +108,6 @@ body, .theme-main-wrapper {
   font-family: 'star';
   src: url('http://brycebladon.com/wp-content/themes/ken/stylesheet/woocommerce-fonts/star.eot');
   src: url('../woocommerce-fonts/star.eot?#iefix') format('embedded-opentype'), url('../woocommerce-fonts/star.woff') format('woff'), url('../woocommerce-fonts/star.ttf') format('truetype'), url('../woocommerce-fonts/star.svg#star') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'WooCommerce';
-  src: url('http://brycebladon.com/wp-content/themes/ken/stylesheet/woocommerce-fonts/WooCommerce.eot');
-  src: url('http://brycebladon.com/wp-content/themes/ken/stylesheet/woocommerce-fonts/WooCommerce.eot?#iefix') format('embedded-opentype'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/woocommerce-fonts/WooCommerce.woff') format('woff'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/woocommerce-fonts/WooCommerce.ttf') format('truetype'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/woocommerce-fonts/WooCommerce.svg#WooCommerce') format('svg');
   font-weight: normal;
   font-style: normal;
 }
