@@ -88,13 +88,13 @@ body, .theme-main-wrapper {
   background-attachment: scroll;
 }
 
-@font-face {
-  font-family: 'ArtbeesWPTokens';
-  src: url('http://brycebladon.com/wp-content/themes/ken/stylesheet/artbees-icons/ArtbeesWPTokens.eot');
-  src: url('http://brycebladon.com/wp-content/themes/ken/stylesheet/artbees-icons/ArtbeesWPTokens.eot?#iefix') format('embedded-opentype'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/artbees-icons/ArtbeesWPTokens.woff') format('woff'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/artbees-icons/ArtbeesWPTokens.ttf') format('truetype'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/artbees-icons/ArtbeesWPTokens.svg#ArtbeesWPTokens') format('svg');
-  font-weight: 400;
-  font-style: normal;
-}
+/*@font-face {*/
+  /*font-family: 'ArtbeesWPTokens';*/
+  /*src: url('http://brycebladon.com/wp-content/themes/ken/stylesheet/artbees-icons/ArtbeesWPTokens.eot');*/
+  /*src: url('http://brycebladon.com/wp-content/themes/ken/stylesheet/artbees-icons/ArtbeesWPTokens.eot?#iefix') format('embedded-opentype'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/artbees-icons/ArtbeesWPTokens.woff') format('woff'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/artbees-icons/ArtbeesWPTokens.ttf') format('truetype'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/artbees-icons/ArtbeesWPTokens.svg#ArtbeesWPTokens') format('svg');*/
+  /*font-weight: 400;*/
+  /*font-style: normal;*/
+/*}*/
 
 @font-face {
   font-family: 'FontAwesome';
@@ -104,29 +104,29 @@ body, .theme-main-wrapper {
   font-style: normal;
 }
 
-@font-face {
-  font-family: 'star';
-  src: url('http://brycebladon.com/wp-content/themes/ken/stylesheet/woocommerce-fonts/star.eot');
-  src: url('../woocommerce-fonts/star.eot?#iefix') format('embedded-opentype'), url('../woocommerce-fonts/star.woff') format('woff'), url('../woocommerce-fonts/star.ttf') format('truetype'), url('../woocommerce-fonts/star.svg#star') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
+/*@font-face {*/
+  /*font-family: 'star';*/
+  /*src: url('http://brycebladon.com/wp-content/themes/ken/stylesheet/woocommerce-fonts/star.eot');*/
+  /*src: url('../woocommerce-fonts/star.eot?#iefix') format('embedded-opentype'), url('../woocommerce-fonts/star.woff') format('woff'), url('../woocommerce-fonts/star.ttf') format('truetype'), url('../woocommerce-fonts/star.svg#star') format('svg');*/
+  /*font-weight: normal;*/
+  /*font-style: normal;*/
+/*}*/
 
-@font-face {
-  font-family: 'Flaticon';
-  src: url('http://brycebladon.com/wp-content/themes/ken/stylesheet/line-icon-set/flaticon.eot');
-  src: url('http://brycebladon.com/wp-content/themes/ken/stylesheet/line-icon-set/flaticon.eot#iefix') format('embedded-opentype'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/line-icon-set/flaticon.woff') format('woff'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/line-icon-set/flaticon.ttf') format('truetype'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/line-icon-set/flaticon.svg') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
+/*@font-face {*/
+  /*font-family: 'Flaticon';*/
+  /*src: url('http://brycebladon.com/wp-content/themes/ken/stylesheet/line-icon-set/flaticon.eot');*/
+  /*src: url('http://brycebladon.com/wp-content/themes/ken/stylesheet/line-icon-set/flaticon.eot#iefix') format('embedded-opentype'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/line-icon-set/flaticon.woff') format('woff'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/line-icon-set/flaticon.ttf') format('truetype'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/line-icon-set/flaticon.svg') format('svg');*/
+  /*font-weight: normal;*/
+  /*font-style: normal;*/
+/*}*/
 
-@font-face {
-  font-family: 'Pe-icon-line';
-  src: url('http://brycebladon.com/wp-content/themes/ken/stylesheet/pe-line-icons/Pe-icon-line.eot?lqevop');
-  src: url('http://brycebladon.com/wp-content/themes/ken/stylesheet/pe-line-icons/Pe-icon-line.eot?#iefixlqevop') format('embedded-opentype'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/pe-line-icons/Pe-icon-line.woff?lqevop') format('woff'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/pe-line-icons/Pe-icon-line.ttf?lqevop') format('truetype'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/pe-line-icons/Pe-icon-line.svg?lqevop#Pe-icon-line') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
+/*@font-face {*/
+  /*font-family: 'Pe-icon-line';*/
+  /*src: url('http://brycebladon.com/wp-content/themes/ken/stylesheet/pe-line-icons/Pe-icon-line.eot?lqevop');*/
+  /*src: url('http://brycebladon.com/wp-content/themes/ken/stylesheet/pe-line-icons/Pe-icon-line.eot?#iefixlqevop') format('embedded-opentype'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/pe-line-icons/Pe-icon-line.woff?lqevop') format('woff'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/pe-line-icons/Pe-icon-line.ttf?lqevop') format('truetype'), url('http://brycebladon.com/wp-content/themes/ken/stylesheet/pe-line-icons/Pe-icon-line.svg?lqevop#Pe-icon-line') format('svg');*/
+  /*font-weight: normal;*/
+  /*font-style: normal;*/
+/*}*/
 
 #fancy-title-2 a {
   color: #ff4351;
@@ -984,6 +984,15 @@ body, .theme-main-wrapper {
     border-radius: 50%;
 
  }
+ /* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+/* Styles */
+  .image-cropper {
+    display:none;
+  }
+}
+
+
  .image-cropper-left {
    margin-right: 20px;
  }
